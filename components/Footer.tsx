@@ -1,7 +1,7 @@
 'use client';
 
 import React, { useState } from "react";
-import { scrollToSection } from "@/lib/utils";
+import { scrollToSection } from "@/lib";
 import { useTranslations } from 'next-intl';
 import PrivacyModal from "@/components/PrivacyModal";
 import StatuteModal from "@/components/StatuteModal";
@@ -62,8 +62,8 @@ export default function Footer () {
 				</div>
 			</div>
 
-			<PrivacyModal isOpen={isPrivacyOpen} onClose={() => setIsPrivacyOpen(false)} />
-			<StatuteModal isOpen={isStatuteOpen} onClose={() => setIsStatuteOpen(false)} />
+			<PrivacyModal isOpen={isPrivacyOpen} onClose={() => setIsPrivacyOpen(false)}/>
+			<StatuteModal isOpen={isStatuteOpen} onClose={() => setIsStatuteOpen(false)}/>
 		</footer>
 	);
 }

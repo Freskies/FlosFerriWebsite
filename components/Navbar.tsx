@@ -1,24 +1,18 @@
 'use client';
 
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { useLocale } from 'next-intl';
 import { Link, usePathname } from '@/i18n/routing';
 import Image from "next/image";
-import { scrollToSection } from "@/lib/utils";
+import { scrollToSection } from "@/lib";
+import { useScrollToTop } from "@/hooks/use-scroll-to-top";
 
 export default function Navbar () {
 	const locale = useLocale();
 	const pathname = usePathname();
 	const [isOpen, setIsOpen] = useState(false);
-	const [scrolled, setScrolled] = useState(false);
 
-	useEffect(() => {
-		const handleScroll = () => {
-			setScrolled(window.scrollY > 20);
-		};
-		window.addEventListener('scroll', handleScroll);
-		return () => window.removeEventListener('scroll', handleScroll);
-	}, []);
+	useScrollToTop();
 
 	const navItems = [
 		{ name: 'Home', id: 'top' },
@@ -32,9 +26,7 @@ export default function Navbar () {
 	};
 
 	return (
-		<nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
-			scrolled ? 'bg-background/95 backdrop-blur-md border-b border-gold/20 py-3 shadow-forged' : 'bg-transparent py-6'
-		}`}>
+		<nav className="fixed top-0 left-0 right-0 z-50 transition-all duration-500 bg-background/95 backdrop-blur-md border-b border-gold/20 py-3 shadow-forged">
 			<div className="max-w-7xl mx-auto px-6">
 				<div className="flex justify-between items-center">
 					<button

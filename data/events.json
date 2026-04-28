@@ -1,115 +1,330 @@
 [
-  {
-    "id": "torneo-primavera-2026",
-    "title": {
-      "it": "Torneo di Primavera",
-      "en": "Spring Tournament"
-    },
-    "date": "2026-05-09",
-    "endDate": "2026-05-10",
-    "time": {
-      "it": "10:00 - 19:00",
-      "en": "10:00 AM - 7:00 PM"
-    },
-    "location": "Rocca Brancaleone, Ravenna",
-    "category": {
-      "it": "Torneo",
-      "en": "Tournament"
-    },
-    "description": {
-      "it": "Due giornate di duelli all'arma bianca, tiro con l'arco storico e accampamento medievale aperto al pubblico. I cavalieri della FlosFerri si sfideranno in armatura completa.",
-      "en": "Two days of white weapon duels, historical archery and a medieval camp open to the public. The FlosFerri knights will challenge each other in full armor."
-    },
-    "image": "https://images.unsplash.com/photo-1599583863916-e06c29087f51?w=1200&q=80",
-    "highlight": true
-  },
-  {
-    "id": "danze-corte-2026",
-    "title": {
-      "it": "Danze di Corte alla Domus",
-      "en": "Court Dances at the Domus"
-    },
-    "date": "2026-06-14",
-    "time": {
-      "it": "21:00",
-      "en": "9:00 PM"
-    },
-    "location": "Domus dei Tappeti di Pietra, Ravenna",
-    "category": {
-      "it": "Danza",
-      "en": "Dance"
-    },
-    "description": {
-      "it": "Serata di danze rinascimentali e basse danze borgognone con musica dal vivo eseguita su strumenti d'epoca.",
-      "en": "Evening of Renaissance dances and Burgundian basse dances with live music performed on period instruments."
-    },
-    "image": "https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=1200&q=80"
-  },
-  {
-    "id": "notte-mosaico-2026",
-    "title": {
-      "it": "La Notte del Mosaico",
-      "en": "The Night of the Mosaic"
-    },
-    "date": "2026-07-20",
-    "time": {
-      "it": "20:30 - 24:00",
-      "en": "8:30 PM - 12:00 AM"
-    },
-    "location": "Piazza San Francesco, Ravenna",
-    "category": {
-      "it": "Spettacolo",
-      "en": "Show"
-    },
-    "description": {
-      "it": "Corteo storico in costume per le vie del centro, sosta presso la tomba di Dante, spettacolo di sbandieratori e fuoco.",
-      "en": "Historical costume parade through the city center, stop at Dante's tomb, flag-waver show and fire."
-    },
-    "image": "https://images.unsplash.com/photo-1533577116850-9cc66cad8a9b?w=1200&q=80"
-  },
-  {
-    "id": "scuola-armi-2026",
-    "title": {
-      "it": "Scuola d'Armi - Lezione Aperta",
-      "en": "Arms School - Open Lesson"
-    },
-    "date": "2026-09-05",
-    "time": {
-      "it": "15:00 - 18:00",
-      "en": "3:00 PM - 6:00 PM"
-    },
-    "location": "Sede FlosFerri, Via dell'Arco 12, Ravenna",
-    "category": {
-      "it": "Didattica",
-      "en": "Teaching"
-    },
-    "description": {
-      "it": "Pomeriggio di prova gratuita per chi vuole avvicinarsi alla scherma storica medievale: spada lunga, sciabola e brocchiero.",
-      "en": "Free trial afternoon for those who want to get closer to historical medieval fencing: longsword, saber and buckler."
-    },
-    "image": "https://images.unsplash.com/photo-1583500178690-f7fd39c95cf2?w=1200&q=80"
-  },
-  {
-    "id": "mercato-natale-2026",
-    "title": {
-      "it": "Mercato dell'Avvento Medievale",
-      "en": "Medieval Advent Market"
-    },
-    "date": "2026-12-12",
-    "endDate": "2026-12-13",
-    "time": {
-      "it": "10:00 - 20:00",
-      "en": "10:00 AM - 8:00 PM"
-    },
-    "location": "Chiostri Francescani, Ravenna",
-    "category": {
-      "it": "Mercato",
-      "en": "Market"
-    },
-    "description": {
-      "it": "Botteghe artigiane, fabbri al lavoro, taverna con piatti medievali, animazione per bambini e cavalieri in armatura.",
-      "en": "Artisan shops, blacksmiths at work, tavern with medieval dishes, animation for children and knights in armor."
-    },
-    "image": "https://images.unsplash.com/photo-1543589077-47d81606c1bf?w=1200&q=80"
-  }
+	{
+		"id": "torneo-primavera-2026",
+		"title": {
+			"it": "Torneo di Primavera",
+			"en": "Spring Tournament"
+		},
+		"date": "2027-05-09",
+		"endDate": "2027-05-10",
+		"time": {
+			"it": "10:00 - 19:00",
+			"en": "10:00 AM - 7:00 PM"
+		},
+		"location": "Rocca Brancaleone, Ravenna",
+		"category": {
+			"it": "TORNEO",
+			"en": "TOURNAMENT"
+		},
+		"description": {
+			"it": "Due giornate di duelli all'arma bianca, tiro con l'arco storico e accampamento medievale aperto al pubblico. I cavalieri della FlosFerri si sfideranno in armatura completa. Due giornate di duelli all'arma bianca, tiro con l'arco storico e accampamento medievale aperto al pubblico. I cavalieri della FlosFerri si sfideranno in armatura completa",
+			"en": "Two days of white weapon duels, historical archery and a medieval camp open to the public. The FlosFerri knights will challenge each other in full armor."
+		},
+		"image": "/soldati.jpeg"
+	},
+	{
+		"id": "danze-corte-2026",
+		"title": {
+			"it": "Danze di Corte alla Domus",
+			"en": "Court Dances at the Domus"
+		},
+		"date": "2026-06-14",
+		"location": "Domus dei Tappeti di Pietra, Ravenna",
+		"category": {
+			"it": "FESTA",
+			"en": "FESTIVAL"
+		},
+		"description": {
+			"it": "Serata di danze rinascimentali e basse danze borgognone con musica dal vivo eseguita su strumenti d'epoca.",
+			"en": "Evening of Renaissance dances and Burgundian basse dances with live music performed on period instruments."
+		},
+		"image": "/soldati.jpeg"
+	},
+	{
+		"id": "notte-mosaico-2026",
+		"title": {
+			"it": "La Notte del Mosaico",
+			"en": "The Night of the Mosaic"
+		},
+		"date": "2026-07-20",
+		"time": {
+			"it": "20:30 - 24:00",
+			"en": "8:30 PM - 12:00 AM"
+		},
+		"location": "Piazza San Francesco, Ravenna",
+		"category": {
+			"it": "RIEVOCAZIONE",
+			"en": "REENACTMENT"
+		},
+		"description": {
+			"it": "Corteo storico in costume per le vie del centro, sosta presso la tomba di Dante, spettacolo di sbandieratori e fuoco.",
+			"en": "Historical costume parade through the city center, stop at Dante's tomb, flag-waver show and fire."
+		},
+		"image": "/soldati.jpeg"
+	},
+	{
+		"id": "scuola-armi-2026",
+		"title": {
+			"it": "Scuola d'Armi - Lezione Aperta",
+			"en": "Arms School - Open Lesson"
+		},
+		"date": "2026-09-05",
+		"time": {
+			"it": "15:00 - 18:00",
+			"en": "3:00 PM - 6:00 PM"
+		},
+		"location": "Sede FlosFerri, Via dell'Arco 12, Ravenna",
+		"category": {
+			"it": "DIDATTICA",
+			"en": "TEACHING"
+		},
+		"description": {
+			"it": "Pomeriggio di prova gratuita per chi vuole avvicinarsi alla scherma storica medievale: spada lunga, sciabola e brocchiero.",
+			"en": "Free trial afternoon for those who want to get closer to historical medieval fencing: longsword, saber and buckler."
+		},
+		"image": "/soldati.jpeg"
+	},
+	{
+		"id": "mercato-natale-2026",
+		"title": {
+			"it": "Mercato dell'Avvento Medievale",
+			"en": "Medieval Advent Market"
+		},
+		"date": "2026-12-12",
+		"endDate": "2026-12-13",
+		"time": {
+			"it": "10:00 - 20:00",
+			"en": "10:00 AM - 8:00 PM"
+		},
+		"location": "Chiostri Francescani, Ravenna",
+		"category": {
+			"it": "FESTA",
+			"en": "FESTIVAL"
+		},
+		"description": {
+			"it": "Botteghe artigiane, fabbri al lavoro, taverna con piatti medievali, animazione per bambini e cavalieri in armatura.",
+			"en": "Artisan shops, blacksmiths at work, tavern with medieval dishes, animation for children and knights in armor."
+		},
+		"image": "/soldati.jpeg"
+	},
+	{
+		"id": "torneo-inverno-2027",
+		"title": {
+			"it": "Torneo d'Inverno",
+			"en": "Winter Tournament"
+		},
+		"date": "2027-02-15",
+		"time": {
+			"it": "09:00 - 18:00",
+			"en": "9:00 AM - 6:00 PM"
+		},
+		"location": "Palasport, Ravenna",
+		"category": {
+			"it": "TORNEO",
+			"en": "TOURNAMENT"
+		},
+		"description": {
+			"it": "Competizione indoor di spada a due mani e spada e brocchiero secondo i trattati del XV secolo.",
+			"en": "Indoor two-handed sword and sword and buckler competition following 15th-century treatises."
+		},
+		"image": "/soldati.jpeg"
+	},
+	{
+		"id": "workshop-armatura-2027",
+		"title": {
+			"it": "Workshop di Manutenzione Armature",
+			"en": "Armor Maintenance Workshop"
+		},
+		"date": "2027-03-20",
+		"time": {
+			"it": "14:00 - 19:00",
+			"en": "2:00 PM - 7:00 PM"
+		},
+		"location": "Laboratorio FlosFerri, Ravenna",
+		"category": {
+			"it": "DIDATTICA",
+			"en": "TEACHING"
+		},
+		"description": {
+			"it": "Impara a prenderti cura della tua attrezzatura: pulizia del metallo, riparazione delle parti in cuoio e imbottiture.",
+			"en": "Learn how to take care of your equipment: metal cleaning, repairing leather parts and padding."
+		},
+		"image": "/soldati.jpeg"
+	},
+	{
+		"id": "festa-san-vitale-2027",
+		"title": {
+			"it": "Rievocazione di San Vitale",
+			"en": "San Vitale Reenactment"
+		},
+		"date": "2027-04-28",
+		"time": {
+			"it": "10:00 - 22:00",
+			"en": "10:00 AM - 10:00 PM"
+		},
+		"location": "Giardini Pubblici, Ravenna",
+		"category": {
+			"it": "RIEVOCAZIONE",
+			"en": "REENACTMENT"
+		},
+		"description": {
+			"it": "Grande festa cittadina con accampamenti, tornei e banchetti medievali in onore del patrono.",
+			"en": "Great city festival with camps, tournaments and medieval banquets in honor of the patron saint."
+		},
+		"image": "/soldati.jpeg"
+	},
+	{
+		"id": "seminario-fiore-2027",
+		"title": {
+			"it": "Seminario su Fiore dei Liberi",
+			"en": "Fiore dei Liberi Seminar"
+		},
+		"date": "2027-05-15",
+		"time": {
+			"it": "10:00 - 17:00",
+			"en": "10:00 AM - 5:00 PM"
+		},
+		"location": "Palestra Comunale, Ravenna",
+		"category": {
+			"it": "DIDATTICA",
+			"en": "TEACHING"
+		},
+		"description": {
+			"it": "Approfondimento tecnico sul 'Fior di Battaglia' con istruttori certificati.",
+			"en": "Technical in-depth study of 'Fior di Battaglia' with certified instructors."
+		},
+		"image": "/soldati.jpeg"
+	},
+	{
+		"id": "palio-marina-2027",
+		"title": {
+			"it": "Palio di Marina",
+			"en": "Marina's Palio"
+		},
+		"date": "2027-06-10",
+		"time": {
+			"it": "18:00 - 23:00",
+			"en": "6:00 PM - 11:00 PM"
+		},
+		"location": "Marina di Ravenna",
+		"category": {
+			"it": "FESTA",
+			"en": "FESTIVAL"
+		},
+		"description": {
+			"it": "Esibizione costiera di scherma e sbandieratori al tramonto.",
+			"en": "Coastal fencing and flag-waver performance at sunset."
+		},
+		"image": "/soldati.jpeg"
+	},
+	{
+		"id": "assedio-rocca-2025",
+		"title": {
+			"it": "L'Assedio della Rocca",
+			"en": "The Siege of the Fortress"
+		},
+		"date": "2025-09-15",
+		"time": {
+			"it": "10:00 - 22:00",
+			"en": "10:00 AM - 10:00 PM"
+		},
+		"location": "Gradara",
+		"category": {
+			"it": "RIEVOCAZIONE",
+			"en": "REENACTMENT"
+		},
+		"description": {
+			"it": "Grande rievocazione storica dell'assedio del 1446 con centinaia di figuranti.",
+			"en": "Great historical reenactment of the 1446 siege with hundreds of participants."
+		},
+		"image": "/soldati.jpeg"
+	},
+	{
+		"id": "palio-bisenzio-2025",
+		"title": {
+			"it": "Palio del Bisenzio",
+			"en": "Palio of Bisenzio"
+		},
+		"date": "2025-07-04",
+		"time": {
+			"it": "18:00",
+			"en": "6:00 PM"
+		},
+		"location": "Campi Bisenzio",
+		"category": {
+			"it": "FESTA",
+			"en": "FESTIVAL"
+		},
+		"description": {
+			"it": "Esibizione di scherma storica e danze medievali in occasione del Palio.",
+			"en": "Historical fencing and medieval dance performance for the Palio."
+		},
+		"image": "/soldati.jpeg"
+	},
+	{
+		"id": "seminario-spada-2025",
+		"title": {
+			"it": "Seminario Spada a Due Mani",
+			"en": "Two-Handed Sword Seminar"
+		},
+		"date": "2025-05-20",
+		"time": {
+			"it": "09:00 - 13:00",
+			"en": "9:00 AM - 1:00 PM"
+		},
+		"location": "Ravenna",
+		"category": {
+			"it": "DIDATTICA",
+			"en": "TEACHING"
+		},
+		"description": {
+			"it": "Approfondimento sulle tecniche di Fiore dei Liberi per la spada a due mani.",
+			"en": "In-depth study of Fiore dei Liberi's techniques for the two-handed sword."
+		},
+		"image": "/soldati.jpeg"
+	},
+	{
+		"id": "festa-castello-2024",
+		"title": {
+			"it": "Festa al Castello",
+			"en": "Castle Festival"
+		},
+		"date": "2024-10-12",
+		"time": {
+			"it": "15:00",
+			"en": "3:00 PM"
+		},
+		"location": "Ferrara",
+		"category": {
+			"it": "FESTA",
+			"en": "FESTIVAL"
+		},
+		"description": {
+			"it": "Animazione medievale e duelli cortesi nel cortile del castello.",
+			"en": "Medieval animation and courtly duels in the castle courtyard."
+		},
+		"image": "/soldati.jpeg"
+	},
+	{
+		"id": "torneo-autunno-2024",
+		"title": {
+			"it": "Torneo d'Autunno",
+			"en": "Autumn Tournament"
+		},
+		"date": "2024-11-05",
+		"time": {
+			"it": "10:00",
+			"en": "10:00 AM"
+		},
+		"location": "Rimini",
+		"category": {
+			"it": "TORNEO",
+			"en": "TOURNAMENT"
+		},
+		"description": {
+			"it": "Torneo sociale di scherma storica per allievi e istruttori.",
+			"en": "Social historical fencing tournament for students and instructors."
+		},
+		"image": "/soldati.jpeg"
+	}
 ]

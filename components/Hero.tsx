@@ -2,7 +2,7 @@
 
 import Image from 'next/image';
 import React from "react";
-import { scrollToSection } from "@/lib/utils";
+import { scrollToSection } from "@/lib";
 
 export default function Hero () {
 
@@ -12,10 +12,10 @@ export default function Hero () {
 				src="/flosfferrihero.png"
 				alt="Medieval Knights"
 				fill
-				className="object-cover"
+				className="object-cover brightness-50"
 				priority
 			/>
-			<div className="absolute inset-0" style={{ background: "var(--gradient-hero)" }}/>
+			<div className="absolute inset-0 z-[5]" style={{ background: "var(--gradient-hero)" }}/>
 
 			<div className="relative z-10 text-center px-6 max-w-4xl">
 				<h1 className="font-display text-6xl md:text-8xl text-foreground mb-6 font-black">

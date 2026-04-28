@@ -1,6 +1,13 @@
 import React from 'react';
 
-export const scrollToSection = (e: React.MouseEvent, id: string) => {
+/**
+ * Smoothly scrolls to a specific section of the page by its ID.
+ * If the ID is 'top', it scrolls to the very top of the window.
+ *
+ * @param e - The mouse event from the click that triggered the scroll.
+ * @param id - The HTML ID of the target section.
+ */
+export function scrollToSection (e: React.MouseEvent, id: string): void {
 	e.preventDefault();
 	if (id === 'top') {
 		window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -20,4 +27,4 @@ export const scrollToSection = (e: React.MouseEvent, id: string) => {
 			});
 		}
 	}
-};
+}
