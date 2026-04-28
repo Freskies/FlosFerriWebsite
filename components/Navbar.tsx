@@ -43,7 +43,7 @@ export default function Navbar () {
 						<div className="flex flex-col text-left">
 							<span
 								className="font-display text-xl tracking-[0.2em] text-foreground group-hover:text-gold transition-colors font-bold">
-								FLOS<span className="text-gold">FERRI</span>
+								<span className="text-accent">FLOS</span><span className="text-gold">FERRI</span>
 							</span>
 						</div>
 					</button>

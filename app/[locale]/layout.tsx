@@ -75,7 +75,7 @@ export default async function RootLayout ({
 			className={`${geistSans.variable} ${geistMono.variable} ${playfair.variable} ${cinzel.variable} ${ebGaramond.variable} ${medievalSharp.variable} h-full antialiased`}
 			suppressHydrationWarning
 		>
-		<body className="min-h-full flex flex-col">
+		<body className="min-h-full flex flex-col" suppressHydrationWarning>
 		<NextIntlClientProvider messages={messages}>
 			{children}
 		</NextIntlClientProvider>

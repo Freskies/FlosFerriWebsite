@@ -6,6 +6,8 @@
 
 :root {
 	--radius: 0.25rem;
+
+
 	/* Parchment / iron palette — dark medieval theme by default */
 	--background: oklch(0.16 0.012 60); /* deep iron black w/ warm tint */
 	--foreground: oklch(0.92 0.025 75); /* aged parchment */
@@ -32,7 +34,6 @@
 	--gold-deep: oklch(0.55 0.13 65);
 	--iron: oklch(0.32 0.01 60);
 	--iron-dark: oklch(0.18 0.01 60);
-	--blood: oklch(0.42 0.18 25);
 	--parchment: oklch(0.92 0.04 80);
 
 	--gradient-iron: linear-gradient(180deg, oklch(0.22 0.012 55) 0%, oklch(0.14 0.01 55) 100%);
@@ -136,6 +137,10 @@
 
 	.text-gold {
 		color: var(--gold);
+	}
+
+	.text-accent {
+		color: var(--accent);
 	}
 
 	.bg-iron {

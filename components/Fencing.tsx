@@ -10,6 +10,7 @@ export default function Fencing () {
 							src="https://images.unsplash.com/photo-1599583863916-e06c29087f51?w=800&q=80" 
 							alt="Historical Fencing" 
 							fill
+							sizes="(max-width: 768px) 100vw, 50vw"
 							className="object-cover transition-transform duration-700 group-hover:scale-105"
 						/>
 						<div className="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent opacity-60" />

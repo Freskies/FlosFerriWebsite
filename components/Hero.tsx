@@ -12,6 +12,7 @@ export default function Hero () {
 				src="/flosfferrihero.png"
 				alt="Medieval Knights"
 				fill
+				sizes="100vw"
 				className="object-cover brightness-50"
 				priority
 			/>
@@ -19,7 +20,7 @@ export default function Hero () {
 
 			<div className="relative z-10 text-center px-6 max-w-4xl">
 				<h1 className="font-display text-6xl md:text-8xl text-foreground mb-6 font-black">
-					Flos<span className="text-gold">Ferri</span>
+					<span className="text-accent">Flos</span><span className="text-gold">Ferri</span>
 				</h1>
 				<p className="font-body text-xl md:text-2xl text-foreground italic max-w-2xl mx-auto leading-relaxed font-medium">
 					«Rievocazioni, Danza, altre parole»
