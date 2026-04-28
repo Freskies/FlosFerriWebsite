@@ -1,0 +1,80 @@
+{
+  "Navigation": {
+    "home": "Home",
+    "contacts": "Contatti",
+    "events": "Eventi"
+  },
+  "Hero": {
+    "title": "Flos Ferri",
+    "subtitle": "",
+    "location_badge": "Ravenna",
+    "motto": "Rievocazioni, Danza, Le mie palle",
+    "cta_events": "I prossimi eventi",
+    "cta_story": "La nostra storia"
+  },
+  "Events": {
+    "title": "Calendario d'Arme",
+    "location": "⌖ {location}",
+    "time": "⏱ {time}",
+    "all_events": "Tutti gli eventi →"
+  },
+  "About": {
+    "title": "Chi Siamo",
+    "p1": "L’associazione Flos Ferri nasce nella primavera del 2001 per volontà di Gianluca Falcone e Marco Signorini, i quali, dopo alcuni anni di pratica “solitaria” dell’arte della Scherma Medievale, hanno deciso di trasmettere e condividere la loro passione con chiunque fosse interessato a questa disciplina.",
+    "p2": "Il gruppo si occupa principalmente della ricostruzione delle tecniche schermistiche, studiate attraverso documenti storici e manuali che trattano la vita e l’arte della guerra del periodo che va dalla fine XIII° secolo all’ inizio XV° secolo, concentrando l’attenzione verso la scuola italiana del celeberrimo Fiore Dei Liberi.",
+    "p3": "L’attività del gruppo si snoda quindi tra gli allenamenti in palestra e le esibizioni di combattimento in pubblico. Questa attività, che è la colonna fondante e portante dell’associazione, è supportata e completata dalle attività di rievocazione e ricostruzione storica, e dalle attività divulgative e didattiche, che ruotano attorno all’accampamento storico, funzionale e vitale, nonché fiore all’occhiello del gruppo.",
+    "p4": "L’associazione Flos Ferri annovera inoltre tra le sue fila anche un gruppo di ballo che si occupa di danze italiane ed europee dei secoli XV°/XVI°, per il quale sono stati realizzati appositamente costumi storici dei periodi e dei lignaggi adeguati.",
+    "p5": "Durante questi lunghi anni il gruppo ha subito come sovente accade una sua evoluzione ed una maturazione, oggi l’attenzione ai dettagli e all’accuratezza di indumenti e oggetti è un punto assai importante di tutta l’attività, ma di comune accordo, abbiamo deciso di restare fedeli alla nostra vocazione, che è il combattimento, sempre animati dal desiderio di inscenare gesta emozionanti e verosimili in completa sicurezza.",
+    "p6": "Oltre ad essere appagante e divertente per noi, e ad avvicinare molti giovani alla cultura e alle tradizioni europee tramite l’esercizio marziale, il combattimento è l’occasione per suscitare l’interesse del pubblico ed attirarlo in un breve viaggio nel tempo che può toccare i più disparati aspetti della vita medievale.",
+    "p7": "Attraverso le pagine di questo sito potrete scoprire e capire meglio chi siamo, quali sono le nostre attività e perchè pratichiamo discipline apparentemente pericolose e così… fuorimoda."
+  },
+  "Fencing": {
+    "title": "Scherma Medievale",
+    "intro": "Il Flos Ferri annovera tra le sue fila un gruppo di armati, dedito allo studio della scherma medievale, ed un corpo di ballo, che propone danze del rinascimento italiano ed europeo.",
+    "activity": "Spostandoci con il nostro accampamento abbiamo l’occasione di potere rievocare eventi storici, come battaglie o cerimonie, o più semplicemente di poterci esibire in duelli e balli nel corso dei banchetti e delle feste che si svolgono nei borghi d’Italia.",
+    "research": "Tutte le nostre attività, così come i costumi, le armi e l’accampamento, sono ricostruite sulla base di ricerche condotte sulle fonti dell’epoca, su studi e trattati universitari e su pubblicazioni dedicate.",
+    "vision": "Tutte questi studi si concretizzano poi nel breve spazio di un duello o di una danza, o nelle lunghe ore passate a realizzare gli oggetti ed i costumi, o nella costante ricerca di ciò che ci occorre nel lavoro di tantissimi artigiani che riproducono con inarrivabile maestria gli artefatti dell’epoca .",
+    "public": "Al pubblico non resta che lasciarsi trasportare nella nostra illusione, che sia per trovare qualche minuto di evasione o che sia per colmare una curiosità che ronza nella testa da sempre, poco importa, l’importante è che sia un momento di aggregazione , condivisione e divertimento per tutti.",
+    "details": {
+      "p1": "Nascendo come gruppo di armati, l’attività principale del Flos Ferri è lo studio delle tecniche e delle arti belliche di un periodo che va dalla fine del XIII° secolo all’inizio del XV°, giunte sino a noi grazie all’opera di grandi maestri o di anonimi che hanno raccolto sulla pergamena gli innumerevoli modi per uscire vivi da una battaglia, da un duello o, più semplicemente, da una rissa di strada.",
+      "p2": "In particolar modo, i trattati su cui basiamo la nostra scherma sono l’ I33 ed il Flos Duellatorum, in omaggio al cui autore – Fiore de’ Liberi – nasce il nome della compagnia.",
+      "p3": "Purtroppo la documentazione che ci è pervenuta non spiega nei dettagli come combattevano gli uomini del tempo, pertanto è qui che inizia il nostro lavoro di ricostruzione e ricerca. Attraverso l’analisi dei trattati, la pratica di anni di esercizio, lo studio delle armi e delle armature, cerchiamo di capire quali erano i principi che stavano alla base di quella che a tutti gli effetti è un’arte marziale, che nulla ha da invidiare alle più blasonate tecniche orientali.",
+      "p4": "Il risultato di questo lavoro, che procede anno per anno, si riassume nei pochi minuti di un duello, o nelle fasi più concitate di una battaglia campale, regalandoci la soddisfazione di aver dato il massimo ed essere ripagati da un applauso o da un complimento.",
+      "p5": "E’ importante precisare che tutti i nostri combattimenti non hanno nulla di preparato o di concordato al fine di aumentarne la spettacolarità, ma sono frutto dello studio e dell’allenamento che ci consentono di ricreare duelli per quanto possibile realistici, mantenendo comunque adeguati livelli di sicurezza grazie alla padronanza delle armi utilizzate. Un altro aspetto su cui puntiamo molto nelle nostre esibizioni, è di sottolineare quanto fosse fisico e brutale il modo di combattere dell’uomo d’arme del trecento, rispetto alla scherma più “cittadina” che si diffonde nei secoli successivi al di fuori degli steccati delle giostre o dei campi di battaglia. Per questo motivo passiamo con la stessa facilità dall’uso della daga a quello della spada e del brocchiere fino a azze, lance e alabarde, anche se spesso gli scontri si concludono con prese di lotta, atterramenti o leve, esattamente come suggerito dalle miniature del Flos Duellatorum e altri trattati destinati all’elite guerriera dell’epoca."
+    }
+  },
+  "Camp": {
+    "title": "L'Accampamento",
+    "p1": "L’accampamento è il fulcro attorno a cui ruotano tutte le attività associative, non è quindi sorprendente che esso sia continuamente in espansione e aggiornamento, ed essendo un campo vivente ed abitato 24 ore al giorno, altrettanto facilmente lo troverete in disordine. Contrariamente a quanto si possa pensare però, questa è una cosa di cui andiamo orgogliosi. Il campo infatti non è semplicemente uno sfondo o una scenografia, è un accampamento vero e proprio e come tale deve funzionare, i velari ci proteggono dal sole e dalla pioggerella, le tende ci proteggono dall’umidità della notte come dai capricciosi temporali estivi, tavoli e panche divengono una mensa e un punto di ritrovo dopo una giornata di lavoro, mentre le rastrelliere raccolgono le armi e le armature in modo che siano sempre visibili e accessibili al pubblico. E’ per questo motivo che il nostro campo non sarà mai perfetto, ma allo stesso tempo pare assai reale e accogliente, pensato volta per volta per accogliere il pubblico e metterlo in condizione di vedere, sentire e toccare con mano tutto ciò che desidera."
+  },
+  "Dance": {
+    "title": "Danze Rinascimentali",
+    "p1": "Gaio e festoso in tutto il Trecento, veloce e geometrico nel Quattrocento, il ballo tra Medioevo e Rinascimento non e’ solo un passatempo o un divertimento, ma soprattutto una tecnica di corteggiamento e un’espressione giocosa. Nelle coreografie geometriche, nella ritmica rispondenza di musiche e passi, nelle fini movenze c’e’ tutta la poesia e la concretezza del Rinascimento. Dai manieri medievali ai palazzi rinascimentali, l’ambiente cortese e signorile ospita raffinati balli di società, passatempo prediletto dall’elites che lo praticano sempre attente a tenersi aggiornate con la moda del tempo.",
+    "p2": "Ecco cosi’ comparire i primi manuali dei maestri del tempo come “De arte saltandi et choreaus ducendi” di Domenico da Piacenza (primo maestro di danze), “De pratica seu arte tripudii vulgare opusculum” di Guglielmo Ebreo da Pesaro (il più importante allievo di Domenico che con le sue spiegazioni è riuscito a far comprendere le danze dell’epoca) e “Libro dell’arte del danzare” di Antonio Cornazano (allievo anch’egli di Domenico ma nel suo testo la descrizione delle danze è precisa seppur troppo sintetica).",
+    "p3": "Le feste da ballo (solitamente banchetti nuziali, cerimonie, incoronazioni) avevano inizio con la Carola nel’400, che alternava le forme del circolo e della catena, mimando un rituale “per flirtare” con i partners i quali tendono ad esibirsi in queste evoluzioni fermandosi a guardarsi a vicenda per poi ripartire.. Con l’avvento dell’Umanesimo, la danza e’ rivalutata al punto da essere paragonata ad una forma d’arte, segno distintivo delle classi nobili. Pertanto si sviluppa da un lato il Saltarello come simbolo di esplosione della danza pop, mentrela Bassadanza diviene il simbolo delle cerimonie di corte.",
+    "p4": "Successivamente nel ‘500 in Francia si danzava attraverso i “branle” (balli in catene o in circolo, con l’introduzione di passi saltati) che solitamente venivano utilizzati per aprire le feste, perché concedeva l’opportunità agli ospiti presenti di conoscersi, iniziare a parlare, dandosi la mano e iniziando questi semplici balli.",
+    "p5": "Infine, il gruppo, si occupa di danze inglesi chiamate “english country dances” che furono pubblicate nel 1651 da J. Playford. Il testo raccoglie quasi un centinaio di danze popolari che già nel secolo precedente avevano “invaso” la tradizione popolare grazie alla loro semplicità e giocosità.",
+    "p6": "Ogni volta l’ass. Flos Ferri cerca di trasmettere al pubblico presente il proprio sapere appreso dallo studio di trattati dei maestri del tempo e invita chiunque abbia voglia di interagire nei momenti d’animazione che concludono le esibizioni, danzando e divertendosi con loro!"
+  },
+  "Contact": {
+    "title": "Contatti",
+    "p1": "Contattaci per informazioni, corsi o eventi.",
+    "president": "Presidente",
+    "vice_president": "Vice Presidente",
+    "email": "Email",
+    "social": "Seguici sui Social"
+  },
+  "Footer": {
+    "rights": "© {year} Flos Ferri. Tutti i diritti riservati.",
+    "denomination": "FLOS FERRI APS",
+    "legal_seat": "Sede Legale: via Pacioli 8, 48124 Ravenna (RA)",
+    "tax_info": "Codice Fiscale: 92101870399",
+    "runts": "Iscritta al RUNTS (sez. APS) dal 02/07/2024 - Repertorio 139207",
+    "pec": "PEC: FLOSFERRIAPS@PEC.IT",
+    "legal_header": "Trasparenza",
+    "statute": "Statuto e Regolamenti",
+    "privacy_policy": "Privacy Policy",
+    "privacy_modal_title": "Informativa sulla Privacy",
+    "privacy_modal_content": "Questa pagina è stata progettata per essere cookie-free. Non utilizziamo cookie di profilazione e non raccogliamo dati personali degli utenti per scopi commerciali. I dati di performance vengono raccolti in modo anonimo da Vercel per fini statistici. Nessun dato viene ceduto a terzi."
+  }
+}

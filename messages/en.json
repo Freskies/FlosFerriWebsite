@@ -1,0 +1,80 @@
+{
+	"Navigation": {
+		"home": "Home",
+		"contacts": "Contacts",
+		"events": "Events"
+	},
+ "Hero": {
+    "title": "Flos Ferri",
+    "subtitle": "Medieval historical reenactment company.",
+    "location_badge": "Anno Domini · Ravenna",
+    "motto": "Forged in iron, keepers of memory.",
+    "cta_events": "Upcoming events",
+    "cta_story": "Our story"
+  },
+  "Events": {
+    "title": "Arms Calendar",
+    "location": "⌖ {location}",
+    "time": "⏱ {time}",
+    "all_events": "All events →"
+  },
+	"About": {
+		"title": "Who We Are",
+		"p1": "The Flos Ferri association was founded in the spring of 2001 by Gianluca Falcone and Marco Signorini, who, after some years of 'solitary' practice of the art of Medieval Fencing, decided to transmit and share their passion with anyone interested in this discipline.",
+		"p2": "The group mainly deals with the reconstruction of fencing techniques, studied through historical documents and manuals dealing with life and the art of war in the period from the end of the 13th century to the beginning of the 15th century, focusing attention on the Italian school of the famous Fiore Dei Liberi.",
+		"p3": "The group's activity therefore unfolds between training in the gym and public combat performances. This activity, which is the founding and supporting column of the association, is supported and completed by historical reenactment and reconstruction activities, and by educational and dissemination activities, which revolve around the historical camp, functional and vital, as well as the group's pride and joy.",
+		"p4": "The Flos Ferri association also counts among its ranks a dance group that deals with Italian and European dances of the 15th/16th centuries, for which historical costumes of the appropriate periods and lineages have been specially made.",
+		"p5": "During these long years, the group has undergone, as often happens, its own evolution and maturation; today, attention to detail and accuracy of clothing and objects is a very important point of all activity, but by common agreement, we decided to remain faithful to our vocation, which is combat, always animated by the desire to stage exciting and plausible deeds in complete safety.",
+		"p6": "In addition to being rewarding and fun for us, and bringing many young people closer to European culture and traditions through martial exercise, combat is an opportunity to arouse the interest of the public and draw them into a short journey through time that can touch on the most diverse aspects of medieval life.",
+		"p7": "Through the pages of this site you will be able to discover and understand better who we are, what our activities are and why we practice disciplines that are apparently dangerous and so... out of fashion."
+	},
+	"Fencing": {
+		"title": "Medieval Fencing",
+		"intro": "Flos Ferri counts among its ranks a group of armed men, dedicated to the study of medieval fencing, and a dance troupe, which offers dances from the Italian and European Renaissance.",
+		"activity": "By moving with our camp we have the opportunity to reenact historical events, such as battles or ceremonies, or more simply to be able to perform in duels and dances during banquets and parties held in the villages of Italy.",
+		"research": "All our activities, as well as the costumes, weapons and the camp, are reconstructed on the basis of research conducted on sources of the period, on university studies and treatises and on dedicated publications.",
+		"vision": "All these studies then materialize in the short space of a duel or a dance, or in the long hours spent creating objects and costumes, or in the constant search for what we need in the work of many artisans who reproduce with unrivaled mastery the artifacts of the time.",
+		"public": "The audience only has to let themselves be transported into our illusion, whether it is to find a few minutes of escape or whether it is to fill a curiosity that has always buzzed in their head, it matters little, the important thing is that it is a moment of aggregation, sharing and fun for everyone.",
+		"details": {
+			"p1": "Starting as a group of armed men, the main activity of Flos Ferri is the study of techniques and martial arts of a period ranging from the end of the 13th century to the beginning of the 15th, which have come down to us through the work of great masters or anonymous people who have collected on parchment the countless ways to get out of a battle, a duel or, more simply, a street brawl alive.",
+			"p2": "In particular, the treatises on which we base our fencing are the I.33 and the Flos Duellatorum, in homage to whose author – Fiore de' Liberi – the company's name was born.",
+			"p3": "Unfortunately, the documentation that has reached us does not explain in detail how the men of the time fought, so this is where our reconstruction and research work begins. Through the analysis of treatises, the practice of years of exercise, the study of weapons and armor, we try to understand what were the principles that formed the basis of what is in all respects a martial art, which has nothing to envy to the most noble oriental techniques.",
+			"p4": "The result of this work, which proceeds year by year, is summarized in the few minutes of a duel, or in the most excited phases of a pitched battle, giving us the satisfaction of having given our best and being rewarded by applause or a compliment.",
+			"p5": "It is important to specify that all our fights have nothing prepared or agreed upon in order to increase their spectacularity, but are the result of study and training that allow us to recreate duels as realistic as possible, while maintaining adequate levels of safety thanks to the mastery of the weapons used. Another aspect on which we focus a lot in our performances is to emphasize how physical and brutal the way of fighting of the man-at-arms of the 14th century was, compared to the more 'urban' fencing that spread in later centuries outside the fences of jousts or battlefields. For this reason we pass with the same ease from the use of the dagger to that of the sword and buckler up to maces, spears and halberds, even if the clashes often end with grappling holds, takedowns or locks, exactly as suggested by the miniatures of the Flos Duellatorum and other treatises intended for the warrior elite of the time."
+		}
+	},
+	"Camp": {
+		"title": "The Camp",
+		"p1": "The camp is the hub around which all associative activities rotate, it is therefore not surprising that it is continuously expanding and updating, and being a living camp inhabited 24 hours a day, you will just as easily find it in disorder. Contrary to what one might think, however, this is something we are proud of. The field in fact is not simply a background or a set, it is a real camp and as such it must function: the sunshades protect us from the sun and light rain, the tents protect us from the humidity of the night as from the capricious summer storms, tables and benches become a canteen and a meeting point after a day's work, while the racks collect weapons and armor so that they are always visible and accessible to the public. It is for this reason that our camp will never be perfect, but at the same time it seems very real and welcoming, thought out time by time to welcome the public and put them in a position to see, feel and touch everything they desire."
+	},
+	"Dance": {
+		"title": "Renaissance Dances",
+		"p1": "Joyful and festive throughout the 14th century, fast and geometric in the 15th century, dancing between the Middle Ages and the Renaissance was not just a pastime or fun, but above all a courtship technique and a playful expression. In the geometric choreographies, in the rhythmic correspondence of music and steps, in the fine movements there is all the poetry and concreteness of the Renaissance. From medieval manors to Renaissance palaces, the courtly and noble environment hosted refined social dances, a favorite pastime of the elites who practiced it, always careful to keep up to date with the fashion of the time.",
+		"p2": "Thus appeared the first manuals of the masters of the time such as 'De arte saltandi et choreaus ducendi' by Domenico da Piacenza (first dance master), 'De pratica seu arte tripudii vulgare opusculum' by Guglielmo Ebreo da Pesaro (the most important student of Domenico who with his explanations managed to make the dances of the time understood) and 'Libro dell'arte del danzare' by Antonio Cornazano (also a student of Domenico but in his text the description of the dances is precise although too synthetic).",
+		"p3": "Dance parties (usually wedding banquets, ceremonies, coronations) began with the Carola in the 15th century, which alternated the forms of the circle and the chain, mimicking a ritual 'for flirting' with partners who tend to perform in these evolutions stopping to look at each other and then starting again. With the advent of Humanism, dance was revalued to the point of being compared to an art form, a distinctive sign of the noble classes. Therefore, on the one hand, the Saltarello developed as a symbol of the explosion of popular dance, while the Bassadanza became the symbol of court ceremonies.",
+		"p4": "Subsequently, in the 16th century in France, people danced through the 'branles' (dances in chains or in circles, with the introduction of skipped steps) which were usually used to open parties, because it gave the opportunity for the guests present to get to know each other, start talking, shaking hands and starting these simple dances.",
+		"p5": "Finally, the group deals with English dances called 'English country dances' which were published in 1651 by J. Playford. The text collects almost a hundred folk dances that already in the previous century had 'invaded' the folk tradition thanks to their simplicity and playfulness.",
+		"p6": "Each time the Flos Ferri association tries to transmit to the public present its knowledge learned from the study of treatises by the masters of the time and invites anyone who wants to interact in the moments of animation that conclude the performances, dancing and having fun with them!"
+	},
+	"Contact": {
+		"title": "Contacts",
+		"p1": "Get in touch with us for info, courses or events.",
+		"president": "President",
+		"vice_president": "Vice President",
+		"email": "Email",
+		"social": "Follow us on Social"
+	},
+  "Footer": {
+    "rights": "© {year} Flos Ferri. All rights reserved.",
+    "denomination": "FLOS FERRI APS",
+    "legal_seat": "Legal Seat: via Pacioli 8, 48124 Ravenna (RA), Italy",
+    "tax_info": "Tax Code: 92101870399",
+    "runts": "Registered in RUNTS (APS section) since 02/07/2024 - Repertory 139207",
+    "pec": "PEC: FLOSFERRIAPS@PEC.IT",
+    "legal_header": "Transparency",
+    "statute": "Statute and Regulations",
+    "privacy_policy": "Privacy Policy",
+    "privacy_modal_title": "Privacy Information",
+    "privacy_modal_content": "This page has been designed to be cookie-free. We do not use profiling cookies and we do not collect personal data of users for commercial purposes. Performance data is collected anonymously by Vercel for statistical purposes. No data is transferred to third parties."
+  }
+}
