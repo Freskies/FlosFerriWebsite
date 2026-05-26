@@ -19,12 +19,13 @@ export default function Contact () {
 					<div className="h-px grow bg-gold/20"/>
 				</div>
 
-				<h2 className="text-5xl md:text-7xl font-display tracking-[0.1em] text-foreground mb-12 font-bold">
+				<h2 className="text-4xl md:text-6xl font-display text-foreground font-bold tracking-wide mb-12">
 					{t('title')}
 				</h2>
 
 
-				<div className="flex flex-col gap-8 max-w-4xl mx-auto mb-16 font-body text-xl items-center text-center">
+				<address
+					className="flex flex-col gap-8 max-w-4xl mx-auto mb-16 font-body text-xl items-center text-center not-italic">
 					<div className="flex flex-col md:flex-row gap-8 md:gap-0 justify-center items-center w-full">
 						<div className="flex flex-col items-center min-w-50">
 							<span className="text-gold font-display text-sm uppercase tracking-widest">{t('president')}</span>
@@ -92,7 +93,7 @@ export default function Contact () {
 							</div>
 						</div>
 					</div>
-				</div>
+				</address>
 			</div>
 		</section>
 	);

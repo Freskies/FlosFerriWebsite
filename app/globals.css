@@ -71,6 +71,8 @@
 	--color-border: var(--border);
 	--color-input: var(--input);
 	--color-ring: var(--ring);
+	--color-gold: var(--gold);
+	--color-gold-deep: var(--gold-deep);
 
 	--font-display: "Cinzel", "Trajan Pro", serif;
 	--font-script: "MedievalSharp", "Cinzel", serif;
@@ -104,6 +106,24 @@
 		font-family: var(--font-display);
 		font-weight: 600;
 		letter-spacing: 0.02em;
+		text-wrap: balance;
+	}
+
+	p {
+		text-wrap: pretty;
+	}
+
+	a {
+		color: inherit;
+		text-decoration: inherit;
+	}
+
+	a:visited {
+		color: inherit;
+	}
+
+	a:active, a:focus {
+		color: inherit;
 	}
 
 	@keyframes fadeInUp {
@@ -117,8 +137,43 @@
 		}
 	}
 
+	@keyframes slideDown {
+		from {
+			opacity: 0;
+			transform: translateY(-20px);
+		}
+		to {
+			opacity: 1;
+			transform: translateY(0);
+		}
+	}
+
+	@keyframes mobileMenuEnter {
+		from {
+			opacity: 0;
+			transform: scaleY(0.95) translateY(-10px);
+		}
+		to {
+			opacity: 1;
+			transform: scaleY(1) translateY(0);
+		}
+	}
+
+	@keyframes fadeIn {
+		from {
+			opacity: 0;
+		}
+		to {
+			opacity: 1;
+		}
+	}
+
 	.animate-fade-in-up {
 		animation: fadeInUp 0.6s ease-out forwards;
+	}
+
+	.fill-mode-forwards {
+		animation-fill-mode: forwards;
 	}
 }
 
@@ -136,11 +191,24 @@
 	}
 
 	.text-gold {
-		color: var(--gold);
+		color: var(--gold) !important;
+	}
+
+	.decoration-gold {
+		text-decoration-color: var(--gold) !important;
 	}
 
 	.text-accent {
-		color: var(--accent);
+		color: var(--accent) !important;
+	}
+
+	/* Force white for non-active languages if global styles are too strong */
+	.text-foreground\/90 {
+		color: color-mix(in oklch, var(--foreground) 90%, transparent) !important;
+	}
+
+	.text-foreground\/70 {
+		color: color-mix(in oklch, var(--foreground) 70%, transparent) !important;
 	}
 
 	.bg-iron {

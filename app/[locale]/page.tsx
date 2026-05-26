@@ -8,16 +8,17 @@ import Camp from '@/components/Camp';
 import Dance from '@/components/Dance';
 import Contact from '@/components/Contact';
 
-export default function Home ({ params }: { params: Promise<{ locale: string }> }) {
+export default function Home () {
 	return (
-		<div className="flex flex-col min-h-screen bg-background font-body selection:bg-gold selection:text-primary-foreground overflow-x-hidden">
+		<div
+			className="flex flex-col min-h-screen bg-background font-body selection:bg-gold selection:text-primary-foreground overflow-x-hidden">
 			<Navbar/>
 
 			<main className="grow">
 				<Hero/>
 				<About/>
 				<Fencing/>
-				<EventsWithLocale params={params}/>
+				<Events />
 				<Camp/>
 				<Dance/>
 				<Contact/>
@@ -26,9 +27,4 @@ export default function Home ({ params }: { params: Promise<{ locale: string }> 
 			<Footer/>
 		</div>
 	);
-}
-
-async function EventsWithLocale({ params }: { params: Promise<{ locale: string }> }) {
-	const { locale } = await params;
-	return <Events locale={locale}/>;
 }

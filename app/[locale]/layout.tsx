@@ -5,6 +5,7 @@ import { routing } from '@/i18n/routing';
 import type { Metadata } from "next";
 import { Geist, Geist_Mono, Playfair_Display, Cinzel, EB_Garamond, MedievalSharp } from "next/font/google";
 import "../globals.css";
+import React from "react";
 
 const geistSans = Geist({
 	variable: "--font-geist-sans",
@@ -74,6 +75,7 @@ export default async function RootLayout ({
 			lang={locale}
 			className={`${geistSans.variable} ${geistMono.variable} ${playfair.variable} ${cinzel.variable} ${ebGaramond.variable} ${medievalSharp.variable} h-full antialiased`}
 			suppressHydrationWarning
+			data-scroll-behavior="smooth"
 		>
 		<body className="min-h-full flex flex-col" suppressHydrationWarning>
 		<NextIntlClientProvider messages={messages}>

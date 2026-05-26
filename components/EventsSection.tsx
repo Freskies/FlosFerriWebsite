@@ -7,7 +7,11 @@ import { calculateDurationDays } from "@/lib";
 import { useIsMounted } from '@/hooks/use-is-mounted';
 import { useSmoothHeight } from '@/hooks/use-smooth-height';
 
-export default function EventsSection ({ locale }: { locale: string }) {
+import { useTranslations, useLocale } from 'next-intl';
+
+export default function EventsSection () {
+	const t = useTranslations('Events');
+	const locale = useLocale();
 	const {
 		visibleEvents,
 		nextBatch,
@@ -28,7 +32,7 @@ export default function EventsSection ({ locale }: { locale: string }) {
 		return (
 			<div className="space-y-12">
 				<div className="flex justify-center py-12">
-					<div className="animate-pulse text-gold">Caricamento eventi...</div>
+					<div className="animate-pulse text-gold">{t('loading')}</div>
 				</div>
 			</div>
 		);
@@ -57,7 +61,7 @@ export default function EventsSection ({ locale }: { locale: string }) {
 						<div className="flex flex-col items-center py-12 animate-fade-in-up">
 							<div className="h-px w-24 bg-gold/30 mb-8"/>
 							<h3 className="font-display text-3xl text-gold uppercase tracking-[0.2em]">
-								{locale === 'it' ? 'Eventi Passati' : 'Past Events'}
+								{t('past_events')}
 							</h3>
 						</div>
 
@@ -78,7 +82,7 @@ export default function EventsSection ({ locale }: { locale: string }) {
 						disabled={isPrefetching && !nextBatch}
 						className="bg-iron border border-primary/40 text-gold font-display uppercase tracking-[0.2em] text-sm px-10 py-4 rounded-sm hover:bg-primary/10 transition cursor-pointer font-bold shadow-forged disabled:opacity-50"
 					>
-						{isPrefetching && !nextBatch ? (locale === 'it' ? 'Caricamento...' : 'Loading...') : (locale === 'it' ? 'Mostra altri eventi' : 'Show more events')}
+						{isPrefetching && !nextBatch ? t('loading_more') : t('show_more')}
 					</button>
 				</div>
 			)}
@@ -87,6 +91,7 @@ export default function EventsSection ({ locale }: { locale: string }) {
 }
 
 function EventCard ({ event, locale, index }: { event: Event, locale: string, index: number }) {
+	const t = useTranslations('Events');
 	const dateObj = new Date(event.date + "T00:00:00");
 	const day = dateObj.getDate();
 	const monthShort = dateObj.toLocaleDateString(locale, { month: 'short' }).toUpperCase();
@@ -141,7 +146,7 @@ function EventCard ({ event, locale, index }: { event: Event, locale: string, in
 					{durationDays > 1 && (
 						<div
 							className="text-[11px] uppercase tracking-tighter text-gold/80 mt-1.5 pt-1.5 border-t border-primary/20 font-bold">
-							{durationDays} {locale === 'it' ? 'Giorni' : 'Days'}
+							{durationDays} {t('days')}
 						</div>
 					)}
 				</div>

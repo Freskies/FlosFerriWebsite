@@ -1,80 +1,184 @@
 {
-  "Navigation": {
-    "home": "Home",
-    "contacts": "Contatti",
-    "events": "Eventi"
-  },
-  "Hero": {
-    "title": "Flos Ferri",
-    "subtitle": "",
-    "location_badge": "Ravenna",
-    "motto": "Rievocazioni, Danza, Le mie palle",
-    "cta_events": "I prossimi eventi",
-    "cta_story": "La nostra storia"
-  },
-  "Events": {
-    "title": "Calendario d'Arme",
-    "location": "⌖ {location}",
-    "time": "⏱ {time}",
-    "all_events": "Tutti gli eventi →"
-  },
-  "About": {
-    "title": "Chi Siamo",
-    "p1": "L’associazione Flos Ferri nasce nella primavera del 2001 per volontà di Gianluca Falcone e Marco Signorini, i quali, dopo alcuni anni di pratica “solitaria” dell’arte della Scherma Medievale, hanno deciso di trasmettere e condividere la loro passione con chiunque fosse interessato a questa disciplina.",
-    "p2": "Il gruppo si occupa principalmente della ricostruzione delle tecniche schermistiche, studiate attraverso documenti storici e manuali che trattano la vita e l’arte della guerra del periodo che va dalla fine XIII° secolo all’ inizio XV° secolo, concentrando l’attenzione verso la scuola italiana del celeberrimo Fiore Dei Liberi.",
-    "p3": "L’attività del gruppo si snoda quindi tra gli allenamenti in palestra e le esibizioni di combattimento in pubblico. Questa attività, che è la colonna fondante e portante dell’associazione, è supportata e completata dalle attività di rievocazione e ricostruzione storica, e dalle attività divulgative e didattiche, che ruotano attorno all’accampamento storico, funzionale e vitale, nonché fiore all’occhiello del gruppo.",
-    "p4": "L’associazione Flos Ferri annovera inoltre tra le sue fila anche un gruppo di ballo che si occupa di danze italiane ed europee dei secoli XV°/XVI°, per il quale sono stati realizzati appositamente costumi storici dei periodi e dei lignaggi adeguati.",
-    "p5": "Durante questi lunghi anni il gruppo ha subito come sovente accade una sua evoluzione ed una maturazione, oggi l’attenzione ai dettagli e all’accuratezza di indumenti e oggetti è un punto assai importante di tutta l’attività, ma di comune accordo, abbiamo deciso di restare fedeli alla nostra vocazione, che è il combattimento, sempre animati dal desiderio di inscenare gesta emozionanti e verosimili in completa sicurezza.",
-    "p6": "Oltre ad essere appagante e divertente per noi, e ad avvicinare molti giovani alla cultura e alle tradizioni europee tramite l’esercizio marziale, il combattimento è l’occasione per suscitare l’interesse del pubblico ed attirarlo in un breve viaggio nel tempo che può toccare i più disparati aspetti della vita medievale.",
-    "p7": "Attraverso le pagine di questo sito potrete scoprire e capire meglio chi siamo, quali sono le nostre attività e perchè pratichiamo discipline apparentemente pericolose e così… fuorimoda."
-  },
-  "Fencing": {
-    "title": "Scherma Medievale",
-    "intro": "Il Flos Ferri annovera tra le sue fila un gruppo di armati, dedito allo studio della scherma medievale, ed un corpo di ballo, che propone danze del rinascimento italiano ed europeo.",
-    "activity": "Spostandoci con il nostro accampamento abbiamo l’occasione di potere rievocare eventi storici, come battaglie o cerimonie, o più semplicemente di poterci esibire in duelli e balli nel corso dei banchetti e delle feste che si svolgono nei borghi d’Italia.",
-    "research": "Tutte le nostre attività, così come i costumi, le armi e l’accampamento, sono ricostruite sulla base di ricerche condotte sulle fonti dell’epoca, su studi e trattati universitari e su pubblicazioni dedicate.",
-    "vision": "Tutte questi studi si concretizzano poi nel breve spazio di un duello o di una danza, o nelle lunghe ore passate a realizzare gli oggetti ed i costumi, o nella costante ricerca di ciò che ci occorre nel lavoro di tantissimi artigiani che riproducono con inarrivabile maestria gli artefatti dell’epoca .",
-    "public": "Al pubblico non resta che lasciarsi trasportare nella nostra illusione, che sia per trovare qualche minuto di evasione o che sia per colmare una curiosità che ronza nella testa da sempre, poco importa, l’importante è che sia un momento di aggregazione , condivisione e divertimento per tutti.",
-    "details": {
-      "p1": "Nascendo come gruppo di armati, l’attività principale del Flos Ferri è lo studio delle tecniche e delle arti belliche di un periodo che va dalla fine del XIII° secolo all’inizio del XV°, giunte sino a noi grazie all’opera di grandi maestri o di anonimi che hanno raccolto sulla pergamena gli innumerevoli modi per uscire vivi da una battaglia, da un duello o, più semplicemente, da una rissa di strada.",
-      "p2": "In particolar modo, i trattati su cui basiamo la nostra scherma sono l’ I33 ed il Flos Duellatorum, in omaggio al cui autore – Fiore de’ Liberi – nasce il nome della compagnia.",
-      "p3": "Purtroppo la documentazione che ci è pervenuta non spiega nei dettagli come combattevano gli uomini del tempo, pertanto è qui che inizia il nostro lavoro di ricostruzione e ricerca. Attraverso l’analisi dei trattati, la pratica di anni di esercizio, lo studio delle armi e delle armature, cerchiamo di capire quali erano i principi che stavano alla base di quella che a tutti gli effetti è un’arte marziale, che nulla ha da invidiare alle più blasonate tecniche orientali.",
-      "p4": "Il risultato di questo lavoro, che procede anno per anno, si riassume nei pochi minuti di un duello, o nelle fasi più concitate di una battaglia campale, regalandoci la soddisfazione di aver dato il massimo ed essere ripagati da un applauso o da un complimento.",
-      "p5": "E’ importante precisare che tutti i nostri combattimenti non hanno nulla di preparato o di concordato al fine di aumentarne la spettacolarità, ma sono frutto dello studio e dell’allenamento che ci consentono di ricreare duelli per quanto possibile realistici, mantenendo comunque adeguati livelli di sicurezza grazie alla padronanza delle armi utilizzate. Un altro aspetto su cui puntiamo molto nelle nostre esibizioni, è di sottolineare quanto fosse fisico e brutale il modo di combattere dell’uomo d’arme del trecento, rispetto alla scherma più “cittadina” che si diffonde nei secoli successivi al di fuori degli steccati delle giostre o dei campi di battaglia. Per questo motivo passiamo con la stessa facilità dall’uso della daga a quello della spada e del brocchiere fino a azze, lance e alabarde, anche se spesso gli scontri si concludono con prese di lotta, atterramenti o leve, esattamente come suggerito dalle miniature del Flos Duellatorum e altri trattati destinati all’elite guerriera dell’epoca."
-    }
-  },
-  "Camp": {
-    "title": "L'Accampamento",
-    "p1": "L’accampamento è il fulcro attorno a cui ruotano tutte le attività associative, non è quindi sorprendente che esso sia continuamente in espansione e aggiornamento, ed essendo un campo vivente ed abitato 24 ore al giorno, altrettanto facilmente lo troverete in disordine. Contrariamente a quanto si possa pensare però, questa è una cosa di cui andiamo orgogliosi. Il campo infatti non è semplicemente uno sfondo o una scenografia, è un accampamento vero e proprio e come tale deve funzionare, i velari ci proteggono dal sole e dalla pioggerella, le tende ci proteggono dall’umidità della notte come dai capricciosi temporali estivi, tavoli e panche divengono una mensa e un punto di ritrovo dopo una giornata di lavoro, mentre le rastrelliere raccolgono le armi e le armature in modo che siano sempre visibili e accessibili al pubblico. E’ per questo motivo che il nostro campo non sarà mai perfetto, ma allo stesso tempo pare assai reale e accogliente, pensato volta per volta per accogliere il pubblico e metterlo in condizione di vedere, sentire e toccare con mano tutto ciò che desidera."
-  },
-  "Dance": {
-    "title": "Danze Rinascimentali",
-    "p1": "Gaio e festoso in tutto il Trecento, veloce e geometrico nel Quattrocento, il ballo tra Medioevo e Rinascimento non e’ solo un passatempo o un divertimento, ma soprattutto una tecnica di corteggiamento e un’espressione giocosa. Nelle coreografie geometriche, nella ritmica rispondenza di musiche e passi, nelle fini movenze c’e’ tutta la poesia e la concretezza del Rinascimento. Dai manieri medievali ai palazzi rinascimentali, l’ambiente cortese e signorile ospita raffinati balli di società, passatempo prediletto dall’elites che lo praticano sempre attente a tenersi aggiornate con la moda del tempo.",
-    "p2": "Ecco cosi’ comparire i primi manuali dei maestri del tempo come “De arte saltandi et choreaus ducendi” di Domenico da Piacenza (primo maestro di danze), “De pratica seu arte tripudii vulgare opusculum” di Guglielmo Ebreo da Pesaro (il più importante allievo di Domenico che con le sue spiegazioni è riuscito a far comprendere le danze dell’epoca) e “Libro dell’arte del danzare” di Antonio Cornazano (allievo anch’egli di Domenico ma nel suo testo la descrizione delle danze è precisa seppur troppo sintetica).",
-    "p3": "Le feste da ballo (solitamente banchetti nuziali, cerimonie, incoronazioni) avevano inizio con la Carola nel’400, che alternava le forme del circolo e della catena, mimando un rituale “per flirtare” con i partners i quali tendono ad esibirsi in queste evoluzioni fermandosi a guardarsi a vicenda per poi ripartire.. Con l’avvento dell’Umanesimo, la danza e’ rivalutata al punto da essere paragonata ad una forma d’arte, segno distintivo delle classi nobili. Pertanto si sviluppa da un lato il Saltarello come simbolo di esplosione della danza pop, mentrela Bassadanza diviene il simbolo delle cerimonie di corte.",
-    "p4": "Successivamente nel ‘500 in Francia si danzava attraverso i “branle” (balli in catene o in circolo, con l’introduzione di passi saltati) che solitamente venivano utilizzati per aprire le feste, perché concedeva l’opportunità agli ospiti presenti di conoscersi, iniziare a parlare, dandosi la mano e iniziando questi semplici balli.",
-    "p5": "Infine, il gruppo, si occupa di danze inglesi chiamate “english country dances” che furono pubblicate nel 1651 da J. Playford. Il testo raccoglie quasi un centinaio di danze popolari che già nel secolo precedente avevano “invaso” la tradizione popolare grazie alla loro semplicità e giocosità.",
-    "p6": "Ogni volta l’ass. Flos Ferri cerca di trasmettere al pubblico presente il proprio sapere appreso dallo studio di trattati dei maestri del tempo e invita chiunque abbia voglia di interagire nei momenti d’animazione che concludono le esibizioni, danzando e divertendosi con loro!"
-  },
-  "Contact": {
-    "title": "Contatti",
-    "p1": "Contattaci per informazioni, corsi o eventi.",
-    "president": "Presidente",
-    "vice_president": "Vice Presidente",
-    "email": "Email",
-    "social": "Seguici sui Social"
-  },
-  "Footer": {
-    "rights": "© {year} Flos Ferri. Tutti i diritti riservati.",
-    "denomination": "FLOS FERRI APS",
-    "legal_seat": "Sede Legale: via Pacioli 8, 48124 Ravenna (RA)",
-    "tax_info": "Codice Fiscale: 92101870399",
-    "runts": "Iscritta al RUNTS (sez. APS) dal 02/07/2024 - Repertorio 139207",
-    "pec": "PEC: FLOSFERRIAPS@PEC.IT",
-    "legal_header": "Trasparenza",
-    "statute": "Statuto e Regolamenti",
-    "privacy_policy": "Privacy Policy",
-    "privacy_modal_title": "Informativa sulla Privacy",
-    "privacy_modal_content": "Questa pagina è stata progettata per essere cookie-free. Non utilizziamo cookie di profilazione e non raccogliamo dati personali degli utenti per scopi commerciali. I dati di performance vengono raccolti in modo anonimo da Vercel per fini statistici. Nessun dato viene ceduto a terzi."
-  }
+	"Navigation": {
+		"home": "Home",
+		"contacts": "Contatti",
+		"events": "Eventi"
+	},
+	"Hero": {
+		"title": "Flos Ferri",
+		"subtitle": "",
+		"location_badge": "Ravenna",
+		"motto": "Rievocazione storica, scherma medievale e danze rinascimentali.",
+		"cta_events": "I prossimi eventi",
+		"cta_story": "La nostra storia"
+	},
+	"Events": {
+		"title": "Calendario d'Arme",
+		"subtitle": "Eventi",
+		"loading": "Caricamento eventi...",
+		"past_events": "Eventi Passati",
+		"show_more": "Mostra altri eventi",
+		"loading_more": "Caricamento...",
+		"days": "Giorni",
+		"location": "⌖ {location}",
+		"time": "⏱ {time}",
+		"all_events": "Tutti gli eventi →"
+	},
+	"About": {
+		"title": "La Compagnia",
+		"subtitle": "La Compagnia",
+		"p1": "L’associazione Flos Ferri nasce nel 2001 per volontà di Gianluca Falcone e Marco Signorini, che dopo alcuni anni di pratica solitaria dell’arte della Scherma Medievale, hanno deciso di condividere la loro passione con chiunque fosse interessato a questa disciplina.",
+		"p2": "Il gruppo si occupa principalmente della ricostruzione delle tecniche schermistiche, studiate attraverso documenti e manuali storici che trattano l’arte della guerra nel periodo che va dalla fine del XIII secolo all’inizio del XV secolo, con particolare attenzione alla scuola italiana del celebre magistro <wiki>Fiore Dei Liberi</wiki>.",
+		"p3": "L’esercizio di combattimento, colonna portante del Flos Ferri, si divide tra gli allenamenti e le esibizioni in pubblico. Queste ultime sono completate dalle attività di ricostruzione storica e divulgazione, che ruotano attorno all’accampamento, funzionale quanto vitale per il nostro gruppo. Oltre ad essere appagante e divertente per noi, e ad avvicinare molti giovani alla cultura e storia tramite l’esercizio della scherma, il combattimento è un’occasione per suscitare interesse e attirare il pubblico in un breve viaggio nel tempo che può toccare i più disparati aspetti della vita medievale.",
+		"p4": "Spostandoci con il nostro accampamento abbiamo l’opportunità di rievocare battaglie ed esibirci in balli durante le feste e le cerimonie che si svolgono nei borghi d’Italia. Tutte le nostre attività, così come costumi, armi, strumenti e l’accampamento stesso, sono ricostruite sulla base di ricerche condotte sulle fonti dell’epoca, su studi e trattati universitari e su pubblicazioni dedicate. Tutti questi sforzi si concretizzano poi nel breve spazio di un duello o una danza, nelle lunghe ore passate a realizzare oggetti e accessori, e nella selezione delle migliori riproduzioni di artefatti originali da aggiungere alla nostra collezione.",
+		"p5": "Al pubblico non resta che lasciarsi trasportare in un viaggio nel tempo, che sia per trovare qualche minuto di evasione o per colmare le curiosità più insolite. L’importante è che sia un momento di aggregazione, condivisione e divertimento per tutti!",
+		"p6": "I nostri allenamenti di scherma medievale si svolgono presso il <maps>centro giovanile Quake in via Eraclea n. 25 Ravenna</maps> ogni venerdì dalle ore 21:00 alle ore 23:00, mentre le date dei balli vengono comunicate mensilmente, con possibilità di spostarsi anche nella <maps_rocca>Rocca di Ravenna</maps_rocca> nei mesi estivi."
+	},
+	"Fencing": {
+		"title": "Scherma Medievale",
+		"subtitle": "L'Arte delle Armi",
+		"intro": "Nascendo come gruppo di armati, l’attività principale del Flos Ferri è lo studio delle tecniche e delle arti belliche del periodo che va dalla fine del XIII all’inizio del XV secolo. Queste sono giunte fino a noi grazie all’opera di grandi maestri o anonimi che hanno immortalato sulla pergamena le innumerevoli tecniche per uscire vivi da una battaglia, da un duello o, più semplicemente, da una rissa di strada.",
+		"activity": "I principali trattati su cui basiamo la nostra scherma sono l’I33 e il Flos Duellatorum, in omaggio al cui autore – <wiki>Fiore de’ Liberi</wiki> – nasce il nome della nostra compagnia.",
+		"research": "Purtroppo, la documentazione che ci è pervenuta non spiega nei dettagli come combattevano gli uomini del tempo, pertanto è qui che inizia il nostro lavoro di ricostruzione e ricerca. Attraverso l’analisi dei trattati, la pratica e lo studio di armi e armature cerchiamo di capire quali erano i principi che stavano alla base di una vera e propria arte marziale, che nulla ha da invidiare alle più blasonate tecniche orientali.",
+		"vision": "Tutto questo lavoro, che procede anno per anno, si concretizza nei pochi minuti di un duello o nelle fasi più concitate di una battaglia campale, regalandoci la soddisfazione di aver dato il massimo ed essere ripagati da un applauso o dall’ammirazione degli spettatori.",
+		"public": "Ci teniamo a precisare che tutti i nostri combattimenti non hanno nulla di coreografato o concordato per mera spettacolarità, ma sono frutto di un allenamento che ci consente di ricreare duelli realistici, mantenendo pur sempre adeguati livelli di sicurezza grazie alla padronanza delle armi utilizzate. Un altro aspetto su cui puntiamo molto nelle nostre esibizioni è quello di sottolineare quanto fosse fisico e istintivo il modo di combattere dell’uomo d’arme del Trecento, rispetto alla scherma “civile” che si diffonde nei secoli successivi al di fuori delle giostre e dei campi di battaglia.",
+		"details": {
+			"p1": "Per questo motivo passiamo con facilità da spada e brocchiero alla daga, dall’azza alla spada lunga, anche se spesso gli scontri si concludono la lotta: prese, atterramenti e leve, esattamente come suggerito dalle miniature del Flos Duellatorum e altri trattati destinati all’élite guerriera dell’epoca."
+		}
+	},
+	"Camp": {
+		"title": "L'Accampamento",
+		"subtitle": "Quotidianità",
+		"p1": "L’accampamento è il fulcro attorno a cui ruotano tutte le attività del gruppo: non è quindi sorprendente che esso sia continuamente in espansione o aggiornamento. Inoltre, essendo la nostra casa per l’intera durata delle uscite, è facile trovarlo in disordine (contrariamente a quanto si possa pensare, questa è una cosa di cui andiamo orgogliosi). Infatti, il campo non è semplicemente uno sfondo o una scenografia, è un vero e proprio supporto per la vita quotidiana e ogni sua parte è pensata con uno scopo: i velari ci proteggono dal sole e dalla pioggerella, le tende riparano dall’umidità della notte e dai temporali estivi, i tavoli e le panche divengono una mensa dove servire i cibi preparati nella nostra cucina e un punto di ritrovo dopo una giornata di lavoro, infine le rastrelliere raccolgono le armi e le armature in modo che siano sempre visibili e accessibili al pubblico. È per questo motivo che il nostro campo non sarà mai perfetto, ma allo stesso tempo pare assai reale e accogliente, pensato volta per volta per accogliere il pubblico e metterlo in condizione di vedere, sentire e toccare con mano tutto ciò che desidera."
+	},
+	"Dance": {
+		"title": "Danze Rinascimentali",
+		"subtitle": "Danza & Arti",
+		"p1": "Gaio e festoso in tutto il Trecento, veloce e geometrico nel Quattrocento, il ballo tra Medioevo e Rinascimento non è solo un passatempo o un divertimento, ma soprattutto una tecnica di corteggiamento e un’espressione giocosa. Nelle coreografie geometriche, nella ritmica rispondenza di musiche e passi, nelle fini movenze c’è tutta la poesia e la concretezza del Rinascimento. Dai manieri medievali ai palazzi rinascimentali, l’ambiente cortese e signorile ospita raffinati balli di società, passatempo prediletto dall’élite che lo praticano sempre attente a tenersi aggiornate con la moda del tempo.",
+		"p2": "Ecco così comparire i primi manuali dei maestri del tempo come “De arte saltandi et choreaus ducendi” di Domenico da Piacenza (primo maestro di danze), “De pratica seu arte tripudii vulgare opusculum” di Guglielmo Ebreo da Pesaro (il più importante allievo di Domenico che con le sue spiegazioni è riuscito a far comprendere le danze dell’epoca) e “Libro dell’arte del danzare” di Antonio Cornazzano (allievo anch’egli di Domenico, ma nel suo testo la descrizione delle danze è precisa seppur troppo sintetica).",
+		"p3": "Le feste da ballo (solitamente banchetti nuziali, cerimonie, incoronazioni) avevano inizio con la Carola nel ’400, che alternava le forme del circolo e della catena, mimando un rituale “per flirtare” con i partner, che si esibiscono in queste evoluzioni fermandosi a guardarsi a vicenda per poi ripartire. Con l’avvento dell’Umanesimo, la danza è rivalutata al punto da essere paragonata ad una forma d’arte, segno distintivo delle classi nobili. Pertanto, si sviluppa da un lato il Saltarello come simbolo di esplosione della danza popolare, mentre la Bassadanza diviene il simbolo delle cerimonie di corte.",
+		"p4": "Successivamente nel ‘500 in Francia si danzava attraverso i “branle” (balli in catene o in circolo, con l’introduzione di passi saltati) che solitamente venivano utilizzati per aprire le feste, perché concedeva l’opportunità agli ospiti presenti di conoscersi, iniziare a parlare, dandosi la mano e iniziando questi semplici balli.",
+		"p5": "Infine, il gruppo, si occupa di danze inglesi chiamate “English Country Dances” che furono pubblicate nel 1651 da J. Playford. Il testo raccoglie quasi un centinaio di danze popolari che già nel secolo precedente avevano “invaso” la tradizione popolare grazie alla loro semplicità e giocosità.",
+		"p6": "Ogni volta l’associazione Flos Ferri cerca di trasmettere al pubblico presente il proprio sapere appreso dallo studio di trattati dei maestri del tempo e invita chiunque abbia voglia di interagire nei momenti d’animazione che concludono le esibizioni, danzando e divertendosi con loro!"
+	},
+	"Contact": {
+		"title": "Contatti",
+		"p1": "Contattaci per informazioni, corsi o eventi.",
+		"president": "Presidente",
+		"vice_president": "Segreteria",
+		"email": "Email",
+		"social": "Seguici sui Social"
+	},
+	"Footer": {
+		"rights": "© {year} Flos Ferri. Tutti i diritti riservati.",
+		"denomination": "FLOS FERRI APS",
+		"legal_seat": "Sede Legale: via Pacioli 8, 48124 Ravenna (RA)",
+		"tax_info": "Codice Fiscale: 92101870399",
+		"runts": "Iscritta al RUNTS (sez. APS) dal 02/07/2024 - Repertorio 139207",
+		"pec": "PEC: FLOSFERRIAPS@PEC.IT",
+		"legal_header": "Trasparenza",
+		"statute": "Statuto e Regolamenti",
+		"privacy_policy": "Privacy Policy",
+		"privacy_modal_title": "Informativa sulla Privacy",
+		"privacy_modal_intro_title": "Cookie e Dati di Navigazione",
+		"privacy_modal_intro": "Questa pagina è stata progettata per essere cookie-free. Non utilizziamo cookie di profilazione e non raccogliamo dati personali degli utenti per scopi commerciali o di tracciamento. I dati di performance del sito vengono raccolti in modo totalmente anonimo da Vercel per soli fini statistici. Nessun dato di navigazione viene ceduto a terzi.",
+		"privacy_modal_section_contacts_title": "Trattamento dei dati inviati volontariamente dall'utente (Contatti)",
+		"privacy_modal_section_contacts_intro": "Se decidi di contattarci utilizzando i link presenti sul sito, tratteremo i dati che ci fornirai spontaneamente secondo i principi di correttezza e trasparenza:",
+		"privacy_modal_email_title": "Via Email:",
+		"privacy_modal_email_content": "Cliccando sul link mail, ci invierai il tuo indirizzo email e le informazioni contenute nel messaggio. Questi dati saranno utilizzati esclusivamente per rispondere alla tua richiesta e non saranno condivisi con terzi.",
+		"privacy_modal_whatsapp_title": "Via WhatsApp:",
+		"privacy_modal_whatsapp_content": "Il sito contiene un collegamento diretto alla piattaforma WhatsApp. Cliccando sul link, verrai reindirizzato sui sistemi di Meta Platforms Ireland Limited. L'invio di un messaggio comporta la condivisione del tuo numero di telefono e del nome associato al tuo profilo. Ti invitiamo a consultare la Privacy Policy di WhatsApp per capire come gestiscono i tuoi dati. Noi useremo il tuo contatto solo ed esclusivamente per scambiare messaggi relativi alla tua richiesta.",
+		"privacy_modal_holder_title": "Titolare del Trattamento",
+		"privacy_modal_holder_content": "Per qualsiasi domanda o per esercitare i tuoi diritti sui dati inviati (es. chiederne la cancellazione), puoi scriverci a: <email>info@flosferri.it</email>.",
+		"privacy_modal_close": "Chiudi",
+		"statute_modal": {
+			"title": "Statuto",
+			"close": "Chiudi Statuto",
+			"disclaimer": "Per quanto non contemplato nel presente Statuto, si applica quanto disposto dal decreto 117/2017 e dal Codice civile.",
+			"sections": {
+				"title1": "Titolo I - Costituzione, Finalità, Durata",
+				"art1_title": "Art. 1 Costituzione, Denominazione e Sede",
+				"art1_content": "Sulla base del principio di sussidiarietà di cui all'art.118 quarto comma della Costituzione, in conformità al Codice civile, alla legge 106/2016 e al Decreto Legislativo 3 luglio 2017 n.117, è costituita un'Associazione di Promozione Sociale, che assume la denominazione di \"Flos Ferri APS\". L'acronimo APS e la denominazione Associazione di Promozione Sociale possono essere usati solo se l'Associazione è iscritta nella sezione \"Associazioni di Promozione Sociale\" del Registro Unico Nazionale degli Enti del Terzo Settore (RUNTS). L'Associazione ha sede nel Comune di Ravenna (Provincia di Ravenna). Il cambio di sede all'interno dello stesso comune può essere deliberato dall'assemblea sociale e non comporta modifica statutaria.",
+				"art2_title": "Art. 2 Finalità",
+				"art2_intro": "L'Associazione è un Ente non commerciale e senza scopo di lucro, che opera con finalità civiche, solidaristiche e di utilità sociale al fine di promuovere la rievocazione e la ricostruzione storica, con particolare riferimento allo studio ed alla divulgazione di eventi storici, musica e danze, arti e mestieri, cucina, moda, giochi e passatempi ed arti marziali. Opera inoltre in ottemperanza ai principi costituzionali e morali al fine di:",
+				"art2_list": [
+					"contribuire a dare attuazione agli articoli 2, 3, 4 e 18 della Costituzione;",
+					"consentire ai propri associati e ai cittadini in genere, attraverso l'attività esercitata, crescita civile e culturale, coesione sociale e miglioramento della qualità della vita;",
+					"sostenere l'autonoma iniziativa di quanti concorrono, anche in forma associata, a perseguire il bene comune, ad elevare i livelli di cittadinanza attiva, di coesione e protezione sociale, favorendo la partecipazione, l'inclusione e il pieno sviluppo della persona;",
+					"valorizzare il loro potenziale di crescita e di occupazione lavorativa;",
+					"favorire particolarmente la partecipazione dei bambini, dei giovani, delle donne, degli anziani, dei cittadini comunque svantaggiati sul piano fisico, sociale, culturale, economico, alle attività di cui al titolo II del presente statuto, operando per tutelarne formalmente e concretamente i diritti, in particolare quali utenti e partecipanti alle attività organizzate dall'Associazione."
+				],
+				"art2_footer": "Nell'ambito delle finalità e dei principi generali, essa svolge in modo principale, in favore dei propri associati, dei loro familiari conviventi e di terzi, le attività di interesse generale previste dal presente statuto, in forma o di azione volontaria, o di mutualità, o di erogazione gratuita di servizi o di produzione o scambio di beni e servizi. L'associazione, in quanto non riconosciuta, è regolata inoltre dagli articoli 36 e seguenti del codice civile.",
+				"art3_title": "Art. 3 Durata",
+				"art3_content": "La durata dell'Associazione è illimitata. Essa potrà essere sciolta solo con delibera dell'assemblea straordinaria degli associati, con le modalità previste dal presente statuto.",
+				"title2": "Titolo II - Attività esercitate",
+				"art4_title": "Art. 4 Le attività dell'Associazione",
+				"art4_intro": "L'Associazione esercita e organizza le seguenti attività, in conformità a quanto previsto dagli articoli 5, 6 e 7 del decreto legislativo 117/2017, dal presente statuto e dalla normativa vigente, anche in collaborazione con altri Enti del Terzo Settore o altri soggetti pubblici e privati e anche mediante la conduzione di impianti, strutture e locali:",
+				"art4_list": [
+					"Attività di interesse generale;",
+					"Attività secondarie e strumentali all'attività istituzionale di interesse generale;",
+					"Attività di raccolta fondi"
+				],
+				"art5_title": "Art. 5 Attività di interesse generale",
+				"art5_intro": "Per il raggiungimento delle proprie finalità, l'Associazione esercita e organizza in via principale e in modo prevalente, in conformità alle norme particolari che ne disciplinano l'esercizio, le seguenti attività di interesse generale di cui all'art. 5 del decreto legislativo 117/2017, con particolare riferimento alle lettere:",
+				"art5_list": [
+					"educazione, istruzione e formazione professionale, ai sensi della legge 28 marzo 2003, n. 53, e successive modificazioni, nonché le attività culturali di interesse sociale con finalità educativa;",
+					"interventi di tutela e valorizzazione del patrimonio culturale e del paesaggio, ai sensi del decreto legislativo 22 gennaio 2004, n. 42, e successive modificazioni;",
+					"organizzazione e gestione di attività culturali, artistiche o ricreative di interesse sociale, incluse attività, anche editoriali, di promozione e diffusione della cultura e della pratica del volontariato e delle attività di interesse generale di cui al presente articolo;",
+					"organizzazione e gestione di attività turistiche di interesse sociale, culturale o religioso;",
+					"organizzazione e gestione di attività sportive dilettantistiche;",
+					"riqualificazione di beni pubblici inutilizzati o di beni confiscati alla criminalità organizzata."
+				],
+				"art6_title": "Art. 6 Attività secondarie e strumentali alle attività istituzionali di interesse generale",
+				"art6_intro": "Per il raggiungimento delle proprie finalità, e al fine di finanziare le proprie attività di interesse generale, l'Associazione inoltre può esercitare e organizzare, a norma dell'art. 6 del decreto legislativo 117/2017, ulteriori attività, secondarie e strumentali rispetto alle attività di interesse generale di cui al presente statuto, secondo criteri e limiti definiti con decreto del Ministero del Lavoro e delle Politiche Sociali 19 maggio 2021 n.107. In particolare, può effettuare:",
+				"art6_list": [
+					"attività commerciali strettamente funzionali a raggiungere gli scopi statutari e ogni altra attività connessa e funzionale al raggiungimento degli scopi associativi consentita agli enti senza fini di lucro dalle disposizioni legislative vigenti. L'individuazione di tali attività è demandata al Consiglio direttivo dell'associazione;",
+					"la somministrazione di alimenti e bevande al pubblico in occasione di particolari eventi o manifestazioni, per il periodo di svolgimento delle stesse, nei locali e/o negli spazi dove tali manifestazioni si svolgono, alle condizioni previste dall'art. 70 del decreto legislativo 117/2017;",
+					"in quanto affiliata AICS, Ente ricompreso tra quelli di cui all'articolo 3, comma 6, lettera e), della legge 25 agosto 1991, n. 287, iscritto nell'apposito registro, le cui finalità assistenziali sono riconosciute dal Ministero dell'Interno, la somministrazione di alimenti e bevande nei confronti dei propri iscritti, dei propri associati e dei familiari conviventi degli stessi, nonché nei confronti di altre associazioni di promozione sociale che svolgono la medesima attività e che per legge, regolamento, atto costitutivo o statuto fanno parte di un'unica organizzazione locale o nazionale, dei rispettivi associati o iscritti e dei tesserati dalle rispettive organizzazioni nazionali, presso le sedi in cui viene svolta l'attività istituzionale, a fronte di corrispettivi specifici, secondo la normativa vigente."
+				],
+				"art7_title": "Art. 7 Attività di raccolta fondi",
+				"art7_content": "Per il raggiungimento delle proprie finalità, e al fine di finanziare le proprie attività di interesse generale, l'associazione può esercitare anche attività di raccolta fondi, secondo quanto previsto dagli art. 7 e 79 del decreto legislativo 117/2017, attraverso la richiesta a terzi di donazioni, lasciti e contributi di natura non corrispettiva. L'attività di raccolta fondi può essere realizzata sia occasionalmente, anche mediante offerte di beni di modico valore o di servizi ai sovventori, in concomitanza di celebrazioni, ricorrenze o campagne di sensibilizzazione, sia in forma organizzata e continuativa, anche mediante sollecitazione al pubblico o attraverso la cessione o erogazione di beni o servizi di modico valore, impiegando risorse proprie e di terzi, inclusi volontari e dipendenti, nel rispetto dei principi di verità, trasparenza e correttezza nei rapporti con i sostenitori e con il pubblico, secondo le Linee Guida adottate con Decreto Ministero del Lavoro e delle Politiche Sociali 9 giugno 2022 e successive modificazioni e integrazioni.",
+				"title3": "Titolo III - Funzionamento e Amministrazione",
+				"art8_title": "Art. 8 Gestione e modalità di svolgimento delle attività organizzate",
+				"art8_content": "Per la realizzazione delle sue attività, per la gestione sul territorio, a tutti i livelli, di progetti in materia di associazionismo sociale, per la realizzazione di specifici obiettivi, per la gestione diretta di determinati servizi, l'Associazione può collaborare con altri enti del terzo settore e con enti senza fini di lucro nonché con soggetti pubblici e privati. Può inoltre stipulare con essi accordi e convenzioni e promuovere e/o costituire e/o aderire, e/o collaborare con Associazioni, Istituti, Fondazioni, Cooperative, Imprese sociali e/o altri enti di carattere strumentale senza fini di lucro. Per la gestione e le modalità di svolgimento delle attività di interesse generale privilegia gli apporti che si basano sulle prestazioni personali, spontanee, volontarie e gratuite, senza fini di lucro, neanche indiretti e si avvale in modo prevalente dell'attività di volontariato dei propri associati o delle persone aderenti agli enti associati. Quando ciò sia necessario ai fini del perseguimento delle proprie finalità e allo svolgimento delle proprie attività, nei limiti di quanto previsto dall'art. 36 del decreto legislativo 117/2017, l'Associazione può ricorrere a prestazioni di lavoro autonomo o di altra natura, o di lavoro dipendente, o ad altre forme di collaborazione consentite dalla legge, anche dei propri associati.",
+				"art9_title": "Art. 9 Apporto dei volontari",
+				"art9_content": "I volontari sono persone che per loro libera scelta svolgono, per il tramite dell'associazione, attività in favore della comunità e del bene comune, mettendo a disposizione il proprio tempo e le proprie capacità. La loro qualifica è incompatibile con qualsiasi forma di rapporto di lavoro subordinato o autonomo e con ogni altro rapporto di lavoro retribuito con l'associazione. La loro attività non può essere retribuita in alcun modo, nemmeno dal beneficiario. Ai volontari possono essere rimborsate soltanto le spese effettivamente sostenute e documentate per l'attività prestata, entro limiti massimi e alle condizioni preventivamente stabilite dal Consiglio Direttivo dell'Associazione, anche con i criteri di cui all'articolo 17 comma 4 del decreto legislativo 117/2017. Sono in ogni caso vietati rimborsi spese di tipo forfetario. Secondo quanto previsto dagli articoli 17 e 18 del d.lgs. 117/2017, con le modalità di cui al decreto Ministero dello Sviluppo economico 6 ottobre 2021 e successive modificazioni e integrazioni, tutti i volontari devono essere assicurati contro le malattie e gli infortuni connessi allo svolgimento dell'attività di volontariato, nonché per la responsabilità civile verso terzi, e coloro che svolgono la loro attività in modo non occasionale devono essere inoltre iscritti in un apposito registro.",
+				"art10_title": "Art. 10 Esercizio Sociale, Bilancio d'Esercizio, Scritture Contabili, Bilancio Sociale",
+				"art10_content": "L'esercizio sociale si svolge dal 1° gennaio al 31 dicembre di ogni anno. Per ogni esercizio sociale il Consiglio Direttivo predispone il bilancio di esercizio. Se l'Associazione ha conseguito ricavi inferiori a 220.000,00 euro, il bilancio può essere redatto sotto forma di rendiconto di cassa. Il bilancio di esercizio deve essere approvato dall'Assemblea sociale entro il 30 aprile di ogni anno e depositato presso il registro unico del terzo settore entro il 30 giugno. Qualora i ricavi superino 1 milione di euro, deve essere redatto inoltre il bilancio sociale.",
+				"art11_title": "Art. 11 Informativa sociale",
+				"art11_content": "Il bilancio di esercizio e il bilancio sociale devono essere affissi presso la sede sociale, e trasmessi a tutti gli associati aventi diritto al voto oppure pubblicizzati per il tramite del sito sociale. Se i ricavi sono superiori a 100.000,00 euro, gli eventuali emolumenti a componenti degli organi di amministrazione e controllo devono essere pubblicati sul sito internet dell'associazione.",
+				"art12_title": "Art. 12 Patrimonio",
+				"art12_content": "Il patrimonio dell'Associazione è costituito dai beni mobili e immobili di proprietà, eccedenze degli esercizi, donazioni, erogazioni e lasciti. Il patrimonio è utilizzato per lo svolgimento dell'attività statutaria. È vietata la distribuzione, anche indiretta, di utili ed avanzi di gestione a fondatori, associati, lavoratori e amministratori.",
+				"art13_title": "Art. 13 Fonti di finanziamento",
+				"art13_content": "Le fonti di finanziamento includono quote annuali, proventi dalla gestione del patrimonio, ricavato delle attività, contributi pubblici e privati, convenzioni ed erogazioni liberali.",
+				"art14_title": "Art. 14 Libri sociali e Registro dei Volontari",
+				"art14_content": "L'Associazione tiene i libri degli associati, delle adunanze dell'Assemblea e del Consiglio Direttivo, nonché il registro dei volontari. Tutti gli associati in regola hanno diritto di esaminare i libri sociali.",
+				"title4": "Titolo IV - Gli Associati",
+				"art15_title": "Art. 15 Adesione all'Associazione",
+				"art15_content": "L'associazione non dispone limitazioni all'ammissione degli associati. Possono aderire tutte le persone fisiche e gli Enti del Terzo settore che ne condividono i principi. Per aderire si deve farne richiesta scritta al Consiglio Direttivo. L'accoglimento dà diritto alla tessera sociale. La quota non è rimborsabile né trasmissibile.",
+				"art16_title": "Art. 16 Diritti degli associati",
+				"art16_content": "Gli associati hanno diritto a partecipare alle attività, alle assemblee, approvare bilanci e statuto, eleggere gli organi sociali. È garantita la libera eleggibilità degli organi amministrativi secondo il principio del voto singolo.",
+				"art17_title": "Art. 17 Doveri degli associati",
+				"art17_content": "Gli associati sono tenuti a sostenere le finalità dell'Associazione, osservare lo statuto e versare le quote sociali stabilite.",
+				"art18_title": "Art. 18 Perdita della qualifica di associato",
+				"art18_content": "La qualifica si perde per dimissioni, scioglimento dell'Associazione, decesso, esclusione per morosità o espulsione per gravi infrazioni. Competente è il Consiglio Direttivo con deliberazioni motivate.",
+				"title5": "Titolo V - Organi dell'Associazione",
+				"art19_title": "Art. 19 Organi Sociali",
+				"art19_content": "Sono Organi dell'Associazione: L'Assemblea Sociale, il Consiglio Direttivo e il Presidente.",
+				"art20_title": "Art. 20 L'Assemblea Sociale",
+				"art20_content": "È il massimo organo dell'Associazione. Approva il bilancio, nomina i componenti degli organi sociali e delibera sulle modifiche statutarie. Ogni associato ha diritto a un voto e può essere titolare di una delega.",
+				"art21_title": "Art. 21 Il Consiglio Direttivo",
+				"art21_content": "Eletto dall'Assemblea, è composto da 3 a 9 membri. Dura in carica 4 anni. Attua gli indirizzi dell'Assemblea e approva i programmi di attività.",
+				"art22_title": "Art. 22 Il Presidente",
+				"art22_content": "Eletto dall'Assemblea, ha la rappresentanza legale dell'Associazione. Dura in carica 4 anni ed è rieleggibile.",
+				"art23_title": "Art. 23 L'Organo di Controllo",
+				"art23_content": "Nominato obbligatoriamente al superamento dei limiti di legge o per volontà dell'Assemblea. Vigila sull'osservanza della legge e dello statuto.",
+				"title6": "Titolo VI - Disposizioni varie e finali",
+				"art26_title": "Art. 26 Modifiche allo statuto",
+				"art26_content": "Le modifiche sono approvate dall'Assemblea con il voto favorevole di almeno i due terzi dei presenti, secondo i quorum costitutivi previsti.",
+				"art28_title": "Art. 28 Scioglimento e devoluzione del patrimonio",
+				"art28_content": "Per lo scioglimento occorre il voto favorevole di almeno tre quarti degli associati. Il patrimonio residuo è devoluto ad altri Enti del Terzo Settore."
+			}
+		}
+	}
 }
