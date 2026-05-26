@@ -6,7 +6,7 @@ import { useLayoutEffect, useRef } from 'react';
  * @param dependencies - The dependencies that should trigger the height recalculation.
  * @returns A ref to be attached to the container that should have the smooth height.
  */
-export function useSmoothHeight (dependencies: never[]) {
+export function useSmoothHeight (dependencies: unknown[]) {
 	const containerRef = useRef<HTMLDivElement>(null);
 
 	useLayoutEffect(() => {
