@@ -1,11 +1,11 @@
 'use client';
 
 import EventsSection from './EventsSection';
-import { useTranslations, useLocale } from 'next-intl';
+import { useTranslations } from 'next-intl';
 
 export default function Events () {
 	const t = useTranslations('Events');
-	const locale = useLocale();
+
 	return (
 		<section id="events" className="mx-auto max-w-7xl px-6 py-24">
 			<header className="flex flex-col items-center text-center mb-16">
@@ -17,7 +17,7 @@ export default function Events () {
 				</h2>
 			</header>
 
-			<EventsSection />
+			<EventsSection/>
 		</section>
 	);
 }
