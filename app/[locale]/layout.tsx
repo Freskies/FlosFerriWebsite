@@ -39,8 +39,53 @@ const medievalSharp = MedievalSharp({
 });
 
 export const metadata: Metadata = {
-	title: "Flos Ferri",
-	description: "Medieval Fencing Association",
+	title: {
+		template: "%s | Flos Ferri",
+		default: "Flos Ferri | Associazione di Scherma Medievale",
+	},
+	description: "Associazione di scherma medievale e storica. Corsi di spada lunga, brocchiero e arti marziali storiche europee (HEMA).",
+	keywords: ["scherma medievale", "HEMA", "scherma storica", "spada lunga", "brocchiero", "arti marziali storiche", "Flos Ferri"],
+	authors: [{ name: "Flos Ferri" }],
+	creator: "Flos Ferri",
+	publisher: "Flos Ferri",
+	formatDetection: {
+		email: false,
+		address: false,
+		telephone: false,
+	},
+	openGraph: {
+		title: "Flos Ferri | Associazione di Scherma Medievale",
+		description: "Scopri l'arte della scherma medievale con Flos Ferri. Corsi, eventi e rievocazione storica.",
+		url: "https://www.flosferri.it", // Esempio segnaposto
+		siteName: "Flos Ferri",
+		images: [
+			{
+				url: "/og-image.jpg", // Segnaposto
+				width: 1200,
+				height: 630,
+				alt: "Flos Ferri - Scherma Medievale",
+			},
+		],
+		locale: "it_IT",
+		type: "website",
+	},
+	twitter: {
+		card: "summary_large_image",
+		title: "Flos Ferri | Associazione di Scherma Medievale",
+		description: "Corsi di scherma storica e rievocazione medievale.",
+		images: ["/og-image.jpg"], // Segnaposto
+	},
+	robots: {
+		index: true,
+		follow: true,
+		googleBot: {
+			index: true,
+			follow: true,
+			'max-video-preview': -1,
+			'max-image-preview': 'large',
+			'max-snippet': -1,
+		},
+	},
 	appleWebApp: {
 		title: "FlosFerri",
 	},
@@ -54,17 +99,14 @@ export const metadata: Metadata = {
 	},
 };
 
-export default async function RootLayout ({
-	                                          children,
-	                                          params
-                                          }: Readonly<{
+export default async function RootLayout ({ children, params }: Readonly<{
 	children: React.ReactNode;
 	params: Promise<{ locale: string }>;
 }>) {
 	const { locale } = await params;
 
 	// Ensure that the incoming `locale` is valid
-	if (!routing.locales.includes(locale as any)) notFound();
+	if (!routing.locales.includes(locale as (typeof routing.locales)[number])) notFound();
 
 	// Providing all messages to the client
 	// side is the easiest way to get started
