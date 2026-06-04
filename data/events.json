@@ -15,7 +15,7 @@
 			"it": "Animazione al parco mani fiorite.",
 			"en": "Animation at the Mani Fiorite park."
 		},
-		"image": "soldati.jpeg"
+		"image": "soldati.jpg"
 	},
 	{
 		"id": "historia-fest-2026",
@@ -34,7 +34,7 @@
 			"it": "Campo, didattica, tornei, battagliola.",
 			"en": "Camp, teaching, tournaments, battle."
 		},
-		"image": "soldati.jpeg"
+		"image": "soldati.jpg"
 	},
 	{
 		"id": "didattiche-castello-bardi-2026",
@@ -52,7 +52,7 @@
 			"it": "Didattiche medievali.",
 			"en": "Medieval teaching activities."
 		},
-		"image": "soldati.jpeg"
+		"image": "soldati.jpg"
 	},
 	{
 		"id": "palio-sparviero-2026",
@@ -71,7 +71,7 @@
 			"it": "Campo e Battaglia.",
 			"en": "Camp and Battle."
 		},
-		"image": "soldati.jpeg"
+		"image": "soldati.jpg"
 	},
 	{
 		"id": "feste-medievali-offagna-2026",
@@ -90,7 +90,7 @@
 			"it": "Vita da campo e didattiche.",
 			"en": "Camp life and teaching activities."
 		},
-		"image": "soldati.jpeg"
+		"image": "soldati.jpg"
 	},
 	{
 		"id": "danze-rocca-rivaldino-1-2026",
@@ -108,7 +108,7 @@
 			"it": "Danze rinascimentali.",
 			"en": "Renaissance dances."
 		},
-		"image": "soldati.jpeg"
+		"image": "soldati.jpg"
 	},
 	{
 		"id": "camunerie-2026",
@@ -127,7 +127,7 @@
 			"it": "Vita da campo e combattimenti.",
 			"en": "Camp life and combat."
 		},
-		"image": "soldati.jpeg"
+		"image": "soldati.jpg"
 	},
 	{
 		"id": "danze-rocca-rivaldino-2-2026",
@@ -145,7 +145,7 @@
 			"it": "Danze rinascimentali.",
 			"en": "Renaissance dances."
 		},
-		"image": "soldati.jpeg"
+		"image": "soldati.jpg"
 	},
 	{
 		"id": "pace-paquara-2026",
@@ -163,7 +163,7 @@
 			"it": "Didattiche 13° secolo.",
 			"en": "13th century teaching activities."
 		},
-		"image": "soldati.jpeg"
+		"image": "soldati.jpg"
 	},
 	{
 		"id": "palio-isola-dovarese-2026",
@@ -182,7 +182,7 @@
 			"it": "Campo ed animazione 1460.",
 			"en": "Camp and animation 1460."
 		},
-		"image": "soldati.jpeg"
+		"image": "soldati.jpg"
 	},
 	{
 		"id": "relazioni-ravenna-venezia-2026",
@@ -201,7 +201,7 @@
 			"it": "Campi, didattiche e combattimenti.",
 			"en": "Camps, teaching and combat."
 		},
-		"image": "soldati.jpeg"
+		"image": "soldati.jpg"
 	},
 	{
 		"id": "villafranca-nella-storia-2026",
@@ -220,7 +220,7 @@
 			"it": "Campo e combattimenti.",
 			"en": "Camp and combat."
 		},
-		"image": "soldati.jpeg"
+		"image": "soldati.jpg"
 	},
 	{
 		"id": "mezzano-2026",
@@ -238,6 +238,6 @@
 			"it": "Corteo e animazione.",
 			"en": "Parade and animation."
 		},
-		"image": "soldati.jpeg"
+		"image": "soldati.jpg"
 	}
 ]

@@ -47,6 +47,6 @@ Le categorie utilizzabili sono strettamente limitate a:
     "it": "Descrizione in italiano.",
     "en": "Description in English."
   },
-  "image": "soldati.jpeg"
+  "image": "soldati.jpg"
 }
 ```
