@@ -16,7 +16,7 @@ export interface Event {
 }
 
 /**
- * Response format for the event_covers API.
+ * Response format for the covers API.
  */
 export interface EventsResponse {
 	events: Event[];
@@ -69,7 +69,7 @@ function setState (nextState: Partial<EventsState>) {
 
 async function fetchEvents (page: number, eventType: EventType): Promise<EventsResponse> {
 	const res = await fetch(`/api/events?page=${page}&limit=4&type=${eventType}`);
-	if (!res.ok) throw new Error('Failed to fetch event_covers');
+	if (!res.ok) throw new Error('Failed to fetch events');
 	return res.json();
 }
 
@@ -141,15 +141,14 @@ async function prefetchNext (currentType: EventType, hasNext: boolean, nextP: nu
  * Custom hook for managing event data, pagination, and prefetching.
  * Uses `useSyncExternalStore` for optimized state management and background prefetching (double buffering).
  *
- * @returns An object containing the current event_covers state and control functions.
+ * @returns An object containing the current covers state and control functions.
  */
 export function useEvents () {
 	const currentState = useSyncExternalStore(subscribe, getSnapshot, getSnapshot);
 
 	useEffect(() => {
-		if (state.visibleEvents.length === 0 && !state.isLoading) {
+		if (state.visibleEvents.length === 0 && !state.isLoading)
 			init('future').then(() => null);
-		}
 	}, []);
 
 	const setType = (type: EventType) => {
