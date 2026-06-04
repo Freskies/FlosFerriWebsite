@@ -27,7 +27,7 @@ export function EventCard ({ event, locale, index }: EventCardProps) {
 		? (typeof event.time === 'string' ? event.time : (event.time[locale] || event.time['en']))
 		: null;
 	// /path remains, name -> /name (works even if it's in a nested path)
-	const imagePath = event.image.startsWith('/') ? event.image : `/${event.image}`;
+	const imagePath = event.image.startsWith('/') ? event.image : `/event_covers/${event.image}`;
 
 	const position = index % 4;
 

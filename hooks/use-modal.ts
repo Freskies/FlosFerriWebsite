@@ -13,11 +13,10 @@ export function useModal (isOpen: boolean, onClose: () => void) {
 
 	useEffect(() => {
 		const dialog = dialogRef.current;
-		if (isOpen && dialog) {
+		if (!dialog) return;
+		if (isOpen) {
 			if (!dialog.open) dialog.showModal();
-		} else if (dialog) {
-			if (dialog.open) dialog.close();
-		}
+		} else if (dialog.open) dialog.close();
 	}, [isOpen]);
 
 	const handleBackdropClick = (e: React.MouseEvent<HTMLDialogElement>) => {

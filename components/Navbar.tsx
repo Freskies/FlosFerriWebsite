@@ -6,8 +6,10 @@ import { usePathname, useRouter } from '@/i18n/routing';
 import Image from "next/image";
 import { scrollToSection } from "@/lib";
 import { motion, AnimatePresence } from 'framer-motion';
+import { useScrollToTop } from '@/hooks/use-scroll-to-top';
 
 export default function Navbar () {
+	useScrollToTop();
 	const t = useTranslations('Navigation');
 	const locale = useLocale();
 	const pathname = usePathname();
