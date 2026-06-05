@@ -303,7 +303,7 @@ Nel linguaggio JSON:
     },
     {
         "nome": "Evento 2"
-    }
+    },
 ]
 ```
 
