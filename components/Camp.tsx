@@ -1,4 +1,5 @@
 import { useTranslations } from 'next-intl';
+import Carousel from './Carousel';
 
 export default function Camp () {
 	const t = useTranslations('Camp');
@@ -15,10 +16,11 @@ export default function Camp () {
 					</h2>
 				</header>
 
-				<div className="relative py-10 md:py-16">
-					<p className="text-xl md:text-2xl leading-relaxed text-foreground/90 italic font-body font-medium">
+				<div className="relative">
+					<p className="text-xl md:text-2xl leading-relaxed text-foreground/90 italic font-body font-medium mb-12">
 						{t('p1')}
 					</p>
+					<Carousel />
 				</div>
 			</div>
 		</section>
