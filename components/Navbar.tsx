@@ -8,6 +8,8 @@ import { scrollToSection } from "@/lib";
 import { motion, AnimatePresence } from 'framer-motion';
 import { useScrollToTop } from '@/hooks/use-scroll-to-top';
 
+const LOGO_SIZE = 40;
+
 export default function Navbar () {
 	useScrollToTop();
 	const t = useTranslations('Navigation');
@@ -35,13 +37,14 @@ export default function Navbar () {
 					<a
 						href="#top"
 						onClick={(e) => handleScrollToSection(e, 'top')}
-						className="group flex items-center gap-3 cursor-pointer bg-transparent border-none p-0"
+						className="group flex items-center gap-3 cursor-pointer bg-transparent border-none p-0 focus-visible:ring-2 focus-visible:ring-gold focus-visible:outline-none rounded-sm transition-shadow"
+						aria-label={t('logo_label')}
 					>
 						<Image
 							src="/flosferrilogo.webp"
 							alt="Flos Ferri Logo"
-							width={40}
-							height={40}
+							width={LOGO_SIZE}
+							height={LOGO_SIZE}
 							style={{ width: "auto", height: "auto" }}
 						/>
 						<div className="flex flex-col text-left">
@@ -59,7 +62,7 @@ export default function Navbar () {
 									key={item.name}
 									href={`#${item.id}`}
 									onClick={(e) => handleScrollToSection(e, item.id)}
-									className="font-display text-xs uppercase tracking-[0.2em] text-foreground hover:text-gold transition-colors relative group bg-transparent border-none cursor-pointer p-0 font-bold"
+									className="font-display text-xs uppercase tracking-[0.2em] text-foreground hover:text-gold transition-colors relative group bg-transparent border-none cursor-pointer p-0 font-bold focus-visible:outline-none focus-visible:text-gold"
 								>
 									{item.name}
 									<span
@@ -73,7 +76,7 @@ export default function Navbar () {
 							<div className="relative flex items-center">
 								<button
 									onClick={() => router.replace(pathname, { locale: 'en', scroll: false })}
-									className={`font-display text-[10px] tracking-widest font-bold transition-all duration-300 relative py-2 bg-transparent border-none cursor-pointer ${locale === 'en' ? 'text-gold drop-shadow-[0_0_8px_rgba(212,175,55,0.4)]' : 'text-foreground/90 hover:text-gold hover:drop-shadow-[0_0_8px_rgba(212,175,55,0.4)]'}`}
+									className={`font-display text-[10px] tracking-widest font-bold transition-all duration-300 relative py-2 bg-transparent border-none cursor-pointer focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gold rounded-xs ${locale === 'en' ? 'text-gold drop-shadow-[0_0_8px_rgba(212,175,55,0.4)]' : 'text-foreground/90 hover:text-gold hover:drop-shadow-[0_0_8px_rgba(212,175,55,0.4)]'}`}
 								>
 									EN
 									{locale === 'en' && (
@@ -89,7 +92,7 @@ export default function Navbar () {
 							<div className="relative flex items-center">
 								<button
 									onClick={() => router.replace(pathname, { locale: 'it', scroll: false })}
-									className={`font-display text-[10px] tracking-widest font-bold transition-all duration-300 relative py-2 bg-transparent border-none cursor-pointer ${locale === 'it' ? 'text-gold drop-shadow-[0_0_8px_rgba(212,175,55,0.4)]' : 'text-foreground/90 hover:text-gold hover:drop-shadow-[0_0_8px_rgba(212,175,55,0.4)]'}`}
+									className={`font-display text-[10px] tracking-widest font-bold transition-all duration-300 relative py-2 bg-transparent border-none cursor-pointer focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gold rounded-xs ${locale === 'it' ? 'text-gold drop-shadow-[0_0_8px_rgba(212,175,55,0.4)]' : 'text-foreground/90 hover:text-gold hover:drop-shadow-[0_0_8px_rgba(212,175,55,0.4)]'}`}
 								>
 									IT
 									{locale === 'it' && (
@@ -107,9 +110,9 @@ export default function Navbar () {
 					<div className="md:hidden flex items-center">
 						<button
 							onClick={() => setIsOpen(!isOpen)}
-							className="text-gold p-2 focus:outline-none"
+							className="text-gold p-2 focus:outline-none focus-visible:ring-2 focus-visible:ring-gold rounded-sm"
 							aria-expanded={isOpen}
-							aria-label={isOpen ? "Chiudi menu" : "Apri menu"}
+							aria-label={isOpen ? t('menu_close') : t('menu_open')}
 						>
 							{isOpen ? (
 								<svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -153,7 +156,7 @@ export default function Navbar () {
 											key={item.name}
 											href={`#${item.id}`}
 											onClick={(e) => handleScrollToSection(e, item.id)}
-											className="font-display text-lg uppercase tracking-[0.25em] text-foreground hover:text-gold bg-transparent border-none cursor-pointer font-bold transition-colors"
+											className="font-display text-lg uppercase tracking-[0.25em] text-foreground hover:text-gold bg-transparent border-none cursor-pointer font-bold transition-colors focus-visible:text-gold focus-visible:outline-none"
 										>
 											{item.name}
 										</a>
@@ -169,7 +172,7 @@ export default function Navbar () {
 												router.replace(pathname, { locale: 'en', scroll: false });
 												setIsOpen(false);
 											}}
-											className={`font-display text-sm tracking-widest font-bold transition-all duration-300 relative py-2 block bg-transparent border-none cursor-pointer ${locale === 'en' ? 'text-gold drop-shadow-[0_0_8px_rgba(212,175,55,0.4)]' : 'text-foreground/70 hover:text-gold hover:drop-shadow-[0_0_8px_rgba(212,175,55,0.4)]'}`}
+											className={`font-display text-sm tracking-widest font-bold transition-all duration-300 relative py-2 block bg-transparent border-none cursor-pointer focus-visible:outline-none focus-visible:text-gold ${locale === 'en' ? 'text-gold drop-shadow-[0_0_8px_rgba(212,175,55,0.4)]' : 'text-foreground/70 hover:text-gold hover:drop-shadow-[0_0_8px_rgba(212,175,55,0.4)]'}`}
 										>
 											ENGLISH
 											{locale === 'en' && (
@@ -187,7 +190,7 @@ export default function Navbar () {
 												router.replace(pathname, { locale: 'it', scroll: false });
 												setIsOpen(false);
 											}}
-											className={`font-display text-sm tracking-widest font-bold transition-all duration-300 relative py-2 block bg-transparent border-none cursor-pointer ${locale === 'it' ? 'text-gold drop-shadow-[0_0_8px_rgba(212,175,55,0.4)]' : 'text-foreground/70 hover:text-gold hover:drop-shadow-[0_0_8px_rgba(212,175,55,0.4)]'}`}
+											className={`font-display text-sm tracking-widest font-bold transition-all duration-300 relative py-2 block bg-transparent border-none cursor-pointer focus-visible:outline-none focus-visible:text-gold ${locale === 'it' ? 'text-gold drop-shadow-[0_0_8px_rgba(212,175,55,0.4)]' : 'text-foreground/70 hover:text-gold hover:drop-shadow-[0_0_8px_rgba(212,175,55,0.4)]'}`}
 										>
 											ITALIANO
 											{locale === 'it' && (

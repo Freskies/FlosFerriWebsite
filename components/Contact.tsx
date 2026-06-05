@@ -34,7 +34,7 @@ export default function Contact () {
 								href="https://wa.me/393288128980"
 								target="_blank"
 								rel="noopener noreferrer"
-								className="flex items-center gap-2 text-muted-foreground hover:text-white transition-all duration-300 text-lg underline underline-offset-4"
+								className="flex items-center gap-2 text-muted-foreground hover:text-white transition-all duration-300 text-lg underline underline-offset-4 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold rounded-xs"
 							>
 								<IoLogoWhatsapp className="text-xl"/>
 								+39 328 8128980
@@ -49,7 +49,7 @@ export default function Contact () {
 								href="https://wa.me/393665333688"
 								target="_blank"
 								rel="noopener noreferrer"
-								className="flex items-center gap-2 text-muted-foreground hover:text-white transition-all duration-300 text-lg underline underline-offset-4"
+								className="flex items-center gap-2 text-muted-foreground hover:text-white transition-all duration-300 text-lg underline underline-offset-4 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold rounded-xs"
 							>
 								<IoLogoWhatsapp className="text-xl"/>
 								+39 366 5333688
@@ -62,7 +62,7 @@ export default function Contact () {
 							<span className="text-gold font-display text-sm uppercase tracking-widest">{t('email')}</span>
 							<a
 								href="mailto:info@flosferri.it"
-								className="flex items-center gap-2 text-muted-foreground hover:text-white transition-all duration-300 text-lg underline underline-offset-4"
+								className="flex items-center gap-2 text-muted-foreground hover:text-white transition-all duration-300 text-lg underline underline-offset-4 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold rounded-xs"
 							>
 								<IoMail className="text-xl"/>
 								info@flosferri.it

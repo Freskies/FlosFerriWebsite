@@ -2,7 +2,10 @@
 	"Navigation": {
 		"home": "Home",
 		"contacts": "Contatti",
-		"events": "Eventi"
+		"events": "Eventi",
+		"logo_label": "Flos Ferri - Vai alla home page",
+		"menu_open": "Apri menu",
+		"menu_close": "Chiudi menu"
 	},
 	"Hero": {
 		"title": "Flos Ferri",
@@ -79,6 +82,7 @@
 		"legal_header": "Trasparenza",
 		"statute": "Statuto e Regolamenti",
 		"privacy_policy": "Privacy Policy",
+		"skip_to_main": "Vai al contenuto principale",
 		"privacy_modal_title": "Informativa sulla Privacy",
 		"privacy_modal_intro_title": "Cookie e Dati di Navigazione",
 		"privacy_modal_intro": "Questa pagina è stata progettata per essere cookie-free. Non utilizziamo cookie di profilazione e non raccogliamo dati personali degli utenti per scopi commerciali o di tracciamento. I dati di performance del sito vengono raccolti in modo totalmente anonimo da Vercel per soli fini statistici. Nessun dato di navigazione viene ceduto a terzi.",

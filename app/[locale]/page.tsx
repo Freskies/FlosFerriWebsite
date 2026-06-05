@@ -57,7 +57,7 @@ export default function Home () {
 			/>
 			<Navbar/>
 
-			<main className="grow">
+			<main id="main-content" className="grow">
 				<Hero/>
 				<About/>
 				<Fencing/>

@@ -304,7 +304,7 @@ export default function StatuteModal ({ isOpen, onClose }: StatuteModalProps) {
 				<footer className="mt-8 pt-6 border-t border-gold/10 text-center shrink-0">
 					<button
 						onClick={onClose}
-						className="border border-gold/40 text-gold font-display uppercase tracking-widest text-xs px-10 py-4 hover:bg-gold/10 transition-colors cursor-pointer font-bold"
+						className="border border-gold/40 text-gold font-display uppercase tracking-widest text-xs px-10 py-4 hover:bg-gold/10 transition-colors cursor-pointer font-bold focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold focus-visible:ring-offset-2 focus-visible:ring-offset-background"
 					>
 						{t('close')}
 					</button>

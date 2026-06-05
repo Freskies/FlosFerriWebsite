@@ -27,7 +27,7 @@ export default function About () {
 										href="https://it.wikipedia.org/wiki/Fiore_dei_Liberi"
 										target="_blank"
 										rel="noopener noreferrer"
-										className="text-gold hover:text-white transition-colors duration-300 underline underline-offset-4 decoration-gold/30 hover:decoration-white/50"
+										className="text-gold hover:text-white transition-colors duration-300 underline underline-offset-4 decoration-gold/30 hover:decoration-white/50 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold rounded-xs"
 									>
 										{chunks}
 									</a>
@@ -46,7 +46,7 @@ export default function About () {
 										href="https://maps.app.goo.gl/q94ayCoFp3zHkGzGA"
 										target="_blank"
 										rel="noopener noreferrer"
-										className="text-gold hover:text-white transition-colors duration-300 underline underline-offset-4 decoration-gold/30 hover:decoration-white/50"
+										className="text-gold hover:text-white transition-colors duration-300 underline underline-offset-4 decoration-gold/30 hover:decoration-white/50 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold rounded-xs"
 									>
 										{chunks}
 									</a>
@@ -56,7 +56,7 @@ export default function About () {
 										href="https://maps.app.goo.gl/1ysrEQ2pYKSe438L9"
 										target="_blank"
 										rel="noopener noreferrer"
-										className="text-gold hover:text-white transition-colors duration-300 underline underline-offset-4 decoration-gold/30 hover:decoration-white/50"
+										className="text-gold hover:text-white transition-colors duration-300 underline underline-offset-4 decoration-gold/30 hover:decoration-white/50 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold rounded-xs"
 									>
 										{chunks}
 									</a>

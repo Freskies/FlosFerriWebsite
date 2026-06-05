@@ -35,6 +35,7 @@ export default function Carousel () {
 	return (
 		<section
 			className="relative w-full max-w-(--breakpoint-lg) mx-auto aspect-4/3 overflow-hidden rounded-xl shadow-2xl group"
+			aria-roledescription="carousel"
 			aria-label="Image Carousel"
 		>
 			<motion.div
@@ -57,13 +58,13 @@ export default function Carousel () {
 					else if (swipe > swipeConfidenceThreshold)
 						prevSlide();
 				}}
-				role="list"
 			>
 				{images.map((image, index) => (
 					<figure
 						key={index}
+						id={`slide-${index}`}
 						className="relative min-w-full h-full m-0"
-						role="listitem"
+						role="tabpanel"
 						aria-roledescription="slide"
 						aria-label={`${index + 1} of ${images.length}`}
 					>
@@ -84,14 +85,14 @@ export default function Carousel () {
 			<nav aria-label="Carousel Navigation">
 				<button
 					onClick={() => prevSlide()}
-					className="absolute left-4 top-1/2 -translate-y-1/2 z-10 p-2 rounded-full bg-black/30 text-white hover:bg-black/50 transition-colors opacity-0 group-hover:opacity-100 focus:opacity-100 outline-hidden focus-visible:ring-2 focus-visible:ring-white"
+					className="absolute left-4 top-1/2 -translate-y-1/2 z-10 p-2 rounded-full bg-black/30 text-white hover:bg-black/50 transition-colors opacity-0 group-hover:opacity-100 focus:opacity-100 focus-visible:opacity-100 outline-none focus-visible:ring-2 focus-visible:ring-white"
 					aria-label="Previous slide"
 				>
 					<IoIosArrowBack size={SIZE_ARROW} aria-hidden="true"/>
 				</button>
 				<button
 					onClick={() => nextSlide()}
-					className="absolute right-4 top-1/2 -translate-y-1/2 z-10 p-2 rounded-full bg-black/30 text-white hover:bg-black/50 transition-colors opacity-0 group-hover:opacity-100 focus:opacity-100 outline-hidden focus-visible:ring-2 focus-visible:ring-white"
+					className="absolute right-4 top-1/2 -translate-y-1/2 z-10 p-2 rounded-full bg-black/30 text-white hover:bg-black/50 transition-colors opacity-0 group-hover:opacity-100 focus:opacity-100 focus-visible:opacity-100 outline-none focus-visible:ring-2 focus-visible:ring-white"
 					aria-label="Next slide"
 				>
 					<IoIosArrowForward size={SIZE_ARROW} aria-hidden="true"/>
@@ -100,7 +101,7 @@ export default function Carousel () {
 
 			{/* Indicators */}
 			<div
-				className="absolute bottom-4 left-1/2 -translate-x-1/2 z-10 flex gap-2"
+				className="absolute bottom-4 left-1/2 -translate-x-1/2 z-10 flex gap-0"
 				role="tablist"
 				aria-label="Slide selection"
 			>
@@ -111,11 +112,13 @@ export default function Carousel () {
 						aria-selected={index === currentIndex}
 						aria-controls={`slide-${index}`}
 						onClick={() => goToSlide(index)}
-						className={`w-2 h-2 rounded-full transition-colors ${
-							index === currentIndex ? 'bg-white' : 'bg-white/50'
-						} hover:bg-white focus:outline-hidden focus-visible:ring-2 focus-visible:ring-white`}
+						className="group/indicator relative p-2 focus:outline-none cursor-pointer"
 						aria-label={`Go to slide ${index + 1}`}
-					/>
+					>
+						<span className={`block w-2 h-2 rounded-full transition-colors ${
+							index === currentIndex ? 'bg-white' : 'bg-white/50'
+						} group-hover/indicator:bg-white group-focus-visible/indicator:ring-2 group-focus-visible/indicator:ring-white group-focus-visible/indicator:ring-offset-2 group-focus-visible/indicator:ring-offset-black/50`} />
+					</button>
 				))}
 			</div>
 		</section>

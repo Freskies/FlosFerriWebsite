@@ -111,6 +111,7 @@ export default async function RootLayout ({ children, params }: Readonly<{
 	// Providing all messages to the client
 	// side is the easiest way to get started
 	const messages = await getMessages();
+	const skipToMain = messages.Footer?.skip_to_main || "Skip to main content";
 
 	return (
 		<html
@@ -120,6 +121,12 @@ export default async function RootLayout ({ children, params }: Readonly<{
 			data-scroll-behavior="smooth"
 		>
 		<body className="min-h-full flex flex-col" suppressHydrationWarning>
+		<a
+			href="#main-content"
+			className="sr-only focus:not-sr-only focus:fixed focus:top-4 focus:left-4 focus:z-[100] focus:px-4 focus:py-2 focus:bg-gold focus:text-primary-foreground focus:rounded-sm focus:shadow-glow-gold font-bold transition-all"
+		>
+			{skipToMain}
+		</a>
 		<NextIntlClientProvider messages={messages}>
 			{children}
 		</NextIntlClientProvider>

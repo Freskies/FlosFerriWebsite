@@ -2,7 +2,10 @@
 	"Navigation": {
 		"home": "Home",
 		"contacts": "Contacts",
-		"events": "Events"
+		"events": "Events",
+		"logo_label": "Flos Ferri - Go to home page",
+		"menu_open": "Open menu",
+		"menu_close": "Close menu"
 	},
 	"Hero": {
 		"title": "Flos Ferri",
@@ -79,6 +82,7 @@
 		"legal_header": "Transparency",
 		"statute": "Statute and Regulations",
 		"privacy_policy": "Privacy Policy",
+		"skip_to_main": "Skip to main content",
 		"privacy_modal_title": "Privacy Information",
 		"privacy_modal_intro_title": "Cookies and Browsing Data",
 		"privacy_modal_intro": "This page has been designed to be cookie-free. We do not use profiling cookies, and we do not collect users' personal data for commercial or tracking purposes. Site performance data is collected completely anonymously by Vercel for statistical purposes only. No browsing data is transferred to third parties.",

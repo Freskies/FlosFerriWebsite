@@ -11,14 +11,14 @@ export default function Hero () {
 	return (
 		<section className="relative min-h-[92vh] flex items-center justify-center overflow-hidden">
 			<Image
-				src="/flosfferrihero.png"
+				src="/flosfferrihero.webp"
 				alt="Medieval Knights"
 				fill
 				sizes="100vw"
 				className="object-cover brightness-50"
 				priority
 			/>
-			<div className="absolute inset-0 z-[5]" style={{ background: "var(--gradient-hero)" }}/>
+			<div className="absolute inset-0 z-5" style={{ background: "var(--gradient-hero)" }}/>
 
 			<div className="relative z-10 text-center px-6 max-w-4xl">
 				<header>
@@ -32,13 +32,13 @@ export default function Hero () {
 				<div className="mt-10 flex flex-wrap gap-4 justify-center">
 					<button
 						onClick={(e) => scrollToSection(e, 'events')}
-						className="bg-gold-gradient text-primary-foreground font-display uppercase tracking-[0.2em] text-sm px-8 py-4 rounded-sm shadow-glow-gold hover:opacity-90 transition cursor-pointer border-none font-bold"
+						className="bg-gold-gradient text-primary-foreground font-display uppercase tracking-[0.2em] text-sm px-8 py-4 rounded-sm shadow-glow-gold hover:opacity-90 transition cursor-pointer border-none font-bold focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-background"
 					>
 						{t('cta_events')}
 					</button>
 					<button
 						onClick={(e) => scrollToSection(e, 'about')}
-						className="border border-primary/60 text-foreground font-display uppercase tracking-[0.2em] text-sm px-8 py-4 rounded-sm hover:bg-primary/10 transition cursor-pointer font-bold"
+						className="border border-primary/60 text-foreground font-display uppercase tracking-[0.2em] text-sm px-8 py-4 rounded-sm hover:bg-primary/10 transition cursor-pointer font-bold focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold focus-visible:ring-offset-2 focus-visible:ring-offset-background"
 					>
 						{t('cta_story')}
 					</button>

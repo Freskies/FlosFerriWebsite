@@ -20,7 +20,7 @@ export default function Fencing () {
 					<div
 						className="relative group overflow-hidden rounded-sm border border-gold/20 shadow-forged aspect-square">
 						<Image
-							src="/compagnia_spade.jpg"
+							src="/compagnia_spade.webp"
 							alt="Historical Fencing"
 							fill
 							sizes="(max-width: 768px) 100vw, 50vw"
@@ -42,7 +42,7 @@ export default function Fencing () {
 											href="https://it.wikipedia.org/wiki/Fiore_dei_Liberi"
 											target="_blank"
 											rel="noopener noreferrer"
-											className="text-gold hover:text-white transition-colors duration-300 underline underline-offset-4 decoration-gold/30 hover:decoration-white/50"
+											className="text-gold hover:text-white transition-colors duration-300 underline underline-offset-4 decoration-gold/30 hover:decoration-white/50 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold rounded-xs"
 										>
 											{chunks}
 										</a>

@@ -33,6 +33,7 @@ export function EventCard ({ event, locale, index }: EventCardProps) {
 
 	return (
 		<article
+			aria-labelledby={`event-title-${event.id}`}
 			className={`
 				group relative flex flex-col overflow-hidden rounded-sm border border-border/70 bg-card shadow-forged transition-[transform,border-color] duration-300 hover:border-primary/60 hover:-translate-y-1 animate-fade-in-up will-change-transform
 				
@@ -80,7 +81,7 @@ export function EventCard ({ event, locale, index }: EventCardProps) {
 				</span>
 			</div>
 			<div className="p-5 space-y-3 bg-card relative z-2">
-				<h3 className="font-display text-xl text-gold tracking-wide font-bold line-clamp-1">{title}</h3>
+				<h3 id={`event-title-${event.id}`} className="font-display text-xl text-gold tracking-wide font-bold line-clamp-1">{title}</h3>
 				<div
 					className="flex flex-wrap gap-x-5 gap-y-1 text-xs uppercase tracking-widest text-muted-foreground font-semibold">
 					<span>⌖ {event.location}</span>

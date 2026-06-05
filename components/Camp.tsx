@@ -20,7 +20,7 @@ export default function Camp () {
 					<p className="text-xl md:text-2xl leading-relaxed text-foreground/90 italic font-body font-medium mb-12">
 						{t('p1')}
 					</p>
-					<Carousel />
+					<Carousel/>
 				</div>
 			</div>
 		</section>

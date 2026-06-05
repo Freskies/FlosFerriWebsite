@@ -79,7 +79,7 @@ export default function EventsSection () {
 					<button
 						onClick={loadMore}
 						disabled={isPrefetching && !nextBatch}
-						className="bg-iron border border-primary/40 text-gold font-display uppercase tracking-[0.2em] text-sm px-10 py-4 rounded-sm hover:bg-primary/10 transition cursor-pointer font-bold shadow-forged disabled:opacity-50"
+						className="bg-iron border border-primary/40 text-gold font-display uppercase tracking-[0.2em] text-sm px-10 py-4 rounded-sm hover:bg-primary/10 transition cursor-pointer font-bold shadow-forged disabled:opacity-50 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold focus-visible:ring-offset-2 focus-visible:ring-offset-background"
 					>
 						{isPrefetching && !nextBatch ? t('loading_more') : t('show_more')}
 					</button>
