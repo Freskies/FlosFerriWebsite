@@ -15,6 +15,9 @@ export default function Events () {
 				<h2 className="font-display text-4xl md:text-6xl text-foreground font-bold tracking-wide">
 					{t('subtitle')}
 				</h2>
+				<p className="mt-6 text-lg text-muted-foreground max-w-2xl mx-auto">
+					{t('intro')}
+				</p>
 			</header>
 
 			<EventsSection/>

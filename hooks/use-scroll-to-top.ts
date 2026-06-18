@@ -11,11 +11,29 @@ export function useScrollToTop () {
 			window.history.scrollRestoration = 'manual';
 
 		// Temporarily disable smooth scroll to perform an instant jump to the top
-		const originalScrollBehavior = document.documentElement.style.scrollBehavior;
-		document.documentElement.style.scrollBehavior = 'auto';
+		const html = document.documentElement;
+		const originalScrollBehavior = html.style.scrollBehavior;
+
+		html.style.scrollBehavior = 'auto';
 		window.scrollTo(0, 0);
 
-		// Restore original scroll behavior (usually smooth scroll defined in CSS)
-		document.documentElement.style.scrollBehavior = originalScrollBehavior;
+		// Also check for data-scroll-behavior and temporarily remove it
+		const originalDataScrollBehavior = html.getAttribute('data-scroll-behavior');
+		if (originalDataScrollBehavior) {
+			html.removeAttribute('data-scroll-behavior');
+		}
+
+		// Force a reflow to ensure the scroll happens immediately with 'auto' behavior
+		void html.offsetHeight;
+
+		// Restore original scroll behavior in the next frame
+		const timeoutId = setTimeout(() => {
+			html.style.scrollBehavior = originalScrollBehavior;
+			if (originalDataScrollBehavior) {
+				html.setAttribute('data-scroll-behavior', originalDataScrollBehavior);
+			}
+		}, 0);
+
+		return () => clearTimeout(timeoutId);
 	}, []);
 }

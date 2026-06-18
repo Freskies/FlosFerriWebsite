@@ -39,6 +39,7 @@ const medievalSharp = MedievalSharp({
 });
 
 export const metadata: Metadata = {
+	metadataBase: new URL("https://www.flosferri.it"),
 	title: {
 		template: "%s | Flos Ferri",
 		default: "Flos Ferri | Associazione di Scherma Medievale",
