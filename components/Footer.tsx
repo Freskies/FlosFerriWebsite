@@ -34,6 +34,7 @@ export default function Footer () {
 							<p className="font-bold text-foreground/90 uppercase tracking-wider">{t('denomination')}</p>
 							<p className="text-foreground/70">{t('legal_seat')}</p>
 							<p className="text-foreground/70">{t('tax_info')}</p>
+							<p className="text-foreground/70">{t('vat')}</p>
 							<p className="text-foreground/70">{t('runts')}</p>
 							<p className="text-foreground/70">{t('pec')}</p>
 						</address>
