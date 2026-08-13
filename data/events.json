@@ -18,25 +18,6 @@
 		"image": "soldati.jpg"
 	},
 	{
-		"id": "historia-fest-2026",
-		"title": {
-			"it": "Historia Fest",
-			"en": "Historia Fest"
-		},
-		"date": "2026-05-23",
-		"endDate": "2026-05-24",
-		"location": "Lucca",
-		"category": {
-			"it": "RIEVOCAZIONE",
-			"en": "REENACTMENT"
-		},
-		"description": {
-			"it": "Campo, didattica, tornei, battagliola.",
-			"en": "Camp, teaching, tournaments, battle."
-		},
-		"image": "soldati.jpg"
-	},
-	{
 		"id": "didattiche-castello-bardi-2026",
 		"title": {
 			"it": "Didattiche al castello di Bardi",
@@ -93,24 +74,6 @@
 		"image": "soldati.jpg"
 	},
 	{
-		"id": "danze-rocca-rivaldino-1-2026",
-		"title": {
-			"it": "Danze alla Rocca di Rivaldino",
-			"en": "Dances at the Rivaldino Fortress"
-		},
-		"date": "2026-07-29",
-		"location": "Forlì",
-		"category": {
-			"it": "FESTA",
-			"en": "FESTIVAL"
-		},
-		"description": {
-			"it": "Danze rinascimentali.",
-			"en": "Renaissance dances."
-		},
-		"image": "soldati.jpg"
-	},
-	{
 		"id": "camunerie-2026",
 		"title": {
 			"it": "Camunerie il castello che rivive",
@@ -126,42 +89,6 @@
 		"description": {
 			"it": "Vita da campo e combattimenti.",
 			"en": "Camp life and combat."
-		},
-		"image": "soldati.jpg"
-	},
-	{
-		"id": "danze-rocca-rivaldino-2-2026",
-		"title": {
-			"it": "Danze alla Rocca di Rivaldino",
-			"en": "Dances at the Rivaldino Fortress"
-		},
-		"date": "2026-08-27",
-		"location": "Forlì",
-		"category": {
-			"it": "FESTA",
-			"en": "FESTIVAL"
-		},
-		"description": {
-			"it": "Danze rinascimentali.",
-			"en": "Renaissance dances."
-		},
-		"image": "soldati.jpg"
-	},
-	{
-		"id": "pace-paquara-2026",
-		"title": {
-			"it": "Pace di Paquara",
-			"en": "Peace of Paquara"
-		},
-		"date": "2026-08-30",
-		"location": "S. Giovanni Lupatoto (VR)",
-		"category": {
-			"it": "DIDATTICA",
-			"en": "TEACHING"
-		},
-		"description": {
-			"it": "Didattiche 13° secolo.",
-			"en": "13th century teaching activities."
 		},
 		"image": "soldati.jpg"
 	},
